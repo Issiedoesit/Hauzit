@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./../assets/css/font.css">
     <link rel="stylesheet" href="./../assets/css/main.css">
 </head>
-<body class="text-brandBlack1 font-biotifBook">
+<body class="text-brandBlack1 font-biotifRegular">
     <!-- Main Content goes here -->
     <header class="shadow-md  h-18 pl-20 py-3 px-10 items-center justify-between flex flex-auto">
         <a href="#">        
@@ -29,7 +29,7 @@
         </span>
     </header>
     <section class="h-fit p-10 w-full bg-[url('./../../assets/images/banner/cover-list-rentals.png')] bg-cover">
-        <form action="" class="bg-white space-y-4 w-fiftyPercent mx-auto p-10 h-full">
+        <form action="" class="bg-white space-y-6 w-fiftyPercent mx-auto p-10 h-full">
             <h1 class="text-3xl text-center font-biotifMedium">
                 List your rental property for free — it's 
                 quick and easy
@@ -39,7 +39,14 @@
                 Post your rental today.
             </h3>
             <div class="flex flex-col">
-                <label for="specialities" class="font-biotifBold text-brandBlack1 pb-2">
+                <label for="street_address" class="font-biotifBold text-brandBlack1 pb-2">
+                    Street address
+                </label>
+                <input name="" id="street_address" class="text-brandBlack4 text-fifteen border border-brandBlack4 py-2 pl-2 pr-8 w-full rounded-five bg-brandWhite2">
+     
+            </div>
+            <div class="flex flex-col">
+                <label for="property_type" class="font-biotifBold text-brandBlack1 pb-2">
                     Property type
                 </label>
                 <select name="" id="property_type" class="text-brandBlack4 text-fifteen border border-brandBlack4 py-2 pl-2 pr-8 w-full rounded-five bg-brandWhite2">
@@ -50,9 +57,91 @@
             <button class="flex flex-row mx-auto w-fit items-center gap-4 border border-brandBlack4 rounded-five py-3 px-10 bg-brandBlue text-white font-biotifMedium">
                 <p>Get Started</p>
             </button>
+            <p class="text-center text-fifteen">Already have an account? <span class="text-brandBlue">Sign in</span></p>
         </form>
     </section>
+    <section class="p-20">
+        <h1 class="text-3xl font-biotifMedium text-center">Post where renters are searching</h1>
+        <div class="flex flex-row pt-18 gap-20">
+            <div class="space-y-3 w-1/2 pr-28 pt-28">
+                <h1 class="font-biotifMedium text-2xl text-brandBlack1">Find renters with less hassle</h1>
+                <p class="font-biotifRegular text-brandBlack1 max-w-xl">
+                    List your house, townhome or apartment for rent on Hauzit and find your 
+                    perfect renter on our network with over 5 million visitors each month.
+                </p>
+            </div>
+            <div class="h-fit w-1/2  relative ">
+                <div class="w-72 shadow-md absolute top-fiftyPercent -translate-y-fiftyPercent -left-40">
+                   <div class="flex flex-row pt-4 pb-2 bg-white px-4 justify-between items-center">
+                       <img src="./../assets/images/logo-icon-white.svg" alt="logo" class="w-6 h-6">
+                        <label for="search_city" class="relative">
+                            <input type="search" name="" id="search_city" placeholder="Port Harcourt, Rivers" class="placeholder:text-brandBlack4 placeholder:text-fifteen border border-brandBlack4 py-2 pl-2 pr-8 w-52 rounded-five bg-transparent">
+                            <svg class="absolute right-5 top-fiftyPercent -translate-y-fiftyPercent" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.98706 11.9741C7.31543 11.9739 8.60551 11.5292 9.65189 10.7109L12.9418 14.0007L14 12.9425L10.7101 9.65264C11.5288 8.60615 11.9738 7.31577 11.9741 5.98706C11.9741 2.68595 9.28818 0 5.98706 0C2.68595 0 0 2.68595 0 5.98706C0 9.28818 2.68595 11.9741 5.98706 11.9741ZM5.98706 1.49677C8.46346 1.49677 10.4774 3.51066 10.4774 5.98706C10.4774 8.46346 8.46346 10.4774 5.98706 10.4774C3.51066 10.4774 1.49677 8.46346 1.49677 5.98706C1.49677 3.51066 3.51066 1.49677 5.98706 1.49677Z" fill="#0096C7"/>
+                            </svg>                            
+                        </label>
+                   </div>
+                    <img src="./../assets/images/ph-map.png" alt="map of port-harcourt nigeria" class="h-72 w-72">
+                </div>
+                <img src="./../assets/images/laptop-man-standing.png" alt="man with laptop" class="w-full h-96">
+            </div>
+        </div>
+        <div class="flex flex-row pt-18 gap-20 w-full">
+            <div class="h-fit w-1/2 ">
+                <img src="./../assets/images/houses/couch-stephen-leonardi.png" alt="man with laptop" class="h-96">
+            </div>
+            <div class="space-y-3 w-1/2 pt-28">
+                <h1 class="font-biotifMedium text-2xl text-brandBlack1">Listing made simple</h1>
+                <div>
+                    <h1 class="font-biotifMedium text-lg text-brandBlack1">Create your rental listings</h1>
+                    <p class="font-biotifRegular text-brandBlack1 max-w-xl">
+                        It takes just minutes to create a listing — simply add property details, upload 
+                        photos and publish.
+                    </p>
+                </div>
+                <div>
+                    <h1 class="font-biotifMedium text-lg text-brandBlack1">Message interested renters</h1>
+                    <p class="font-biotifRegular text-brandBlack1 max-w-xl">
+                        Communicate with renters using Hauzit to stay organized during the tenant 
+                        search process.                    </p>
+                </div>
+                <div>
+                    <h1 class="font-biotifMedium text-lg text-brandBlack1">Reuse your rental posting</h1>
+                    <p class="font-biotifRegular text-brandBlack1 max-w-xl">
+                        Time for new renters? We save your listings so you can republish them with 
+                        the click of a button.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-full p-10 bg-brandWhite2">
+        <h1 class="font-biotifMedium text-2xl text-brandBlack1 text-center">Post a listing in 3 easy steps</h1>
+        <div class="flex flex-row py-10">
+            <div class="w-1/3 flex flex-col gap-10 items-center">
+                <div class="bg-brandGreen h-254 w-380"></div>
+                <p class="text-center w-44 font-biotifMedium">
+                    1. Add property details 
+                    and images
+                </p>
+            </div>
+            <div class="w-1/3 flex flex-col gap-10 items-center">
+                <div class="bg-brandGreen h-254 w-380"></div>
+                <p class="text-center w-44 font-biotifMedium">
+                    2. Set your annual rent 
+                    price
+                </p>
+            </div>
+            <div class="w-1/3 flex flex-col gap-10 items-center">
+                <div class="bg-brandGreen h-254 w-380"></div>
+                <p class="text-center w-44 font-biotifMedium">
+                    3. Publish and share with 
+                    renters in your area
+                </p>
+            </div>
+        </div>
 
+    </section>
     <footer class="bg-brandGrey w-full text-center text-white font-biotifBook">
         <section class="border-b space-y-3 border-brandBlack6 py-12">
             <h1 class="text-xl">Download the Hauzit app</h1>
