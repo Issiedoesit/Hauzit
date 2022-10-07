@@ -78,6 +78,9 @@ module.exports = {
         '80': '80',
         '100': '100',
       },
+      borderWidth:{
+        '0.3': '0.01875rem' ,
+      },
       spacing:{
         'sixPixel': "0.375rem",
         '18': '4.5rem',
