@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'biotif-black'; 
+    src: url("./../fonts/Biotif-Black.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-black-italic'; 
+    src: url("./../fonts/Biotif-BlackItalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-bold'; 
+    src: url("./../fonts/Biotif-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-bold-2'; 
+    src: url("./../fonts/Biotif-Bold\ 2.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-bold-italic'; 
+    src: url("./../fonts/Biotif-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-book'; 
+    src: url("./../fonts/Biotif-Book.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-book-2'; 
+    src: url("./../fonts/Biotif-Book\ 2.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-book-italic'; 
+    src: url("./../fonts/Biotif-BookItalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-extra-bold'; 
+    src: url("./../fonts/Biotif-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-extra-bold-italic'; 
+    src: url("./../fonts/Biotif-ExtraBoldItalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-light'; 
+    src: url("./../fonts/Biotif-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-light-2'; 
+    src: url("./../fonts/Biotif-Light\ 2.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-light-italic'; 
+    src: url("./../fonts/Biotif-LightItalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-medium'; 
+    src: url("./../fonts/Biotif-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-medium-italic'; 
+    src: url("./../fonts/Biotif-MediumItalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-regular'; 
+    src: url("./../fonts/Biotif-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-regular-2'; 
+    src: url("./../fonts/Biotif-Regular\ 2.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-regular-italic'; 
+    src: url("./../fonts/Biotif-RegularItalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-semi-bold'; 
+    src: url("./../fonts/Biotif-SemiBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-semi-bold-2'; 
+    src: url("./../fonts/Biotif-SemiBold\ 2.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'biotif-semi-bold-italic'; 
+    src: url("./../fonts/Biotif-SemiBoldItalic.ttf") format("truetype");
+}
