@@ -852,6 +852,10 @@ video {
   width: 6.25rem;
 }
 
+.w-fiftyPercent {
+  width: 50%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -1190,6 +1194,22 @@ video {
 
 .bg-\[url\(\'\.\/\.\.\/\.\.\/assets\/images\/houses\/toa-heftiba\.png\'\)\] {
   background-image: url('./../../assets/images/houses/toa-heftiba.png');
+}
+
+.bg-\[url\(\'\.\/\.\.\/\.\.\/assets\/images\/banner\/cover-li\.jpg\'\)\] {
+  background-image: url('./../../assets/images/banner/cover-li.jpg');
+}
+
+.bg-\[url\(\'\.\/\.\.\/\.\.\/assets\/images\/banner\/cover-list-rentals\.jpg\'\)\] {
+  background-image: url('./../../assets/images/banner/cover-list-rentals.jpg');
+}
+
+.bg-\[url\(\'\.\/\.\.\/\.\.\/assets\/images\/banner\/cover-list-rentals\.p\'\)\] {
+  background-image: url('./../../assets/images/banner/cover-list-rentals.p');
+}
+
+.bg-\[url\(\'\.\/\.\.\/\.\.\/assets\/images\/banner\/cover-list-rentals\.png\'\)\] {
+  background-image: url('./../../assets/images/banner/cover-list-rentals.png');
 }
 
 .bg-cover {
