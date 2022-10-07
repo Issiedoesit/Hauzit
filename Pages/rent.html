@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent</title>
+    <link rel="shortcut icon" href="./../assets/images/logo-icon-black.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../assets/css/font.css">
+    <link rel="stylesheet" href="./../assets/css/main.css">
+</head>
+<body>
+    <!-- Main Content goes here -->
+    <header class="shadow-md  h-18 pl-20 py-3 px-10 items-center justify-between flex flex-auto border-b border-brandBlack6">
+        <a href="./../index.html">
+            <img class="w-auto" src="./../assets/images/logo.svg" alt="Hauzit Logo">
+        </a>
+        <nav class="w-auto space-x-4 ml-20">
+            <a class="font-biotifRegular text-md hover:text-brandBlue" href="#" >Buy</a>
+            <a class="font-biotifRegular text-md text-brandBlue" href="./rent.html">Rent</a>
+            <a class="font-biotifRegular text-md hover:text-brandBlue" href="./sell.html">Sell</a>
+            <a class="font-biotifRegular text-md hover:text-brandBlue" href="./home-loans.html">Home Loans</a>
+            <a class="font-biotifRegular text-md hover:text-brandBlue" href="./professionals.html">Professionals</a>
+        </nav>
+        <span class="space-x-4 ml-44">
+            <a class="font-biotifRegular text-md" href="">List Rentals</a>
+            <a class="font-biotifRegular text-md" href="">Work with us</a>
+            <a href="#" class="border-2 border-gray-400 rounded-five px-2 py-2">Sign in or Log in</a>
+        </span>
+    </header>
+    <section class="h-auto  bg-brandGreen pl-28 w-full relative">
+        <main class="bg-white py-7 px-12">
+            <div class="flex flex-col gap-5 w-full justify-between font-biotifBook">
+                <h1 class="font-biotifMedium text-lg">Rental Listings</h1>
+                <div class="flex flex-row gap-4 pb-8">
+                    <label for="search_city" class="relative">
+                        <input type="search" name="" id="search_city" placeholder="State, city or neighborhood" class="placeholder:text-brandBlack4 placeholder:text-fifteen border border-brandBlack4 py-2 pl-2 pr-8 w-64 rounded-five">
+                        <svg class="absolute right-5 top-fiftyPercent -translate-y-fiftyPercent" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.98706 11.9741C7.31543 11.9739 8.60551 11.5292 9.65189 10.7109L12.9418 14.0007L14 12.9425L10.7101 9.65264C11.5288 8.60615 11.9738 7.31577 11.9741 5.98706C11.9741 2.68595 9.28818 0 5.98706 0C2.68595 0 0 2.68595 0 5.98706C0 9.28818 2.68595 11.9741 5.98706 11.9741ZM5.98706 1.49677C8.46346 1.49677 10.4774 3.51066 10.4774 5.98706C10.4774 8.46346 8.46346 10.4774 5.98706 10.4774C3.51066 10.4774 1.49677 8.46346 1.49677 5.98706C1.49677 3.51066 3.51066 1.49677 5.98706 1.49677Z" fill="#495057"/>
+                        </svg>                            
+                    </label>
+                    <button class="flex flex-row items-center gap-4 border border-brandBlack4 rounded-five px-2 pb-2 pt-1 text-brandBlack2 text-fifteen">
+                        <p class="pt-1">For Rent</p>
+                        <svg width="11" height="5" viewBox="0 0 11 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.59049 4.856C4.63636 4.90041 4.69774 4.93672 4.76935 4.96181C4.84095 4.98689 4.92063 5 5.00152 5C5.08241 5 5.16209 4.98689 5.23369 4.96181C5.3053 4.93672 5.36668 4.90041 5.41255 4.856L9.9129 0.522964C9.965 0.472987 9.99554 0.414449 10.0012 0.353711C10.0069 0.292973 9.98752 0.232358 9.94515 0.178452C9.90278 0.124546 9.83906 0.0794107 9.76091 0.0479494C9.68276 0.0164882 9.59317 -9.54414e-05 9.50187 4.13189e-07H0.501167C0.410082 0.000251199 0.320822 0.0170481 0.242987 0.0485847C0.165152 0.0801213 0.101687 0.125204 0.0594169 0.178986C0.0171465 0.232767 -0.00232967 0.293212 0.00308273 0.35382C0.00849514 0.414428 0.0385914 0.472905 0.0901349 0.522964L4.59049 4.856Z" fill="#6C757D"/>
+                        </svg>
+                    </button>
+                    <button class="flex flex-row items-center gap-4 border border-brandBlack4 rounded-five px-2 pb-2 pt-1 text-brandBlack2 text-fifteen">
+                        <p class="pt-1">Price</p>
+                        <svg width="11" height="5" viewBox="0 0 11 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.59049 4.856C4.63636 4.90041 4.69774 4.93672 4.76935 4.96181C4.84095 4.98689 4.92063 5 5.00152 5C5.08241 5 5.16209 4.98689 5.23369 4.96181C5.3053 4.93672 5.36668 4.90041 5.41255 4.856L9.9129 0.522964C9.965 0.472987 9.99554 0.414449 10.0012 0.353711C10.0069 0.292973 9.98752 0.232358 9.94515 0.178452C9.90278 0.124546 9.83906 0.0794107 9.76091 0.0479494C9.68276 0.0164882 9.59317 -9.54414e-05 9.50187 4.13189e-07H0.501167C0.410082 0.000251199 0.320822 0.0170481 0.242987 0.0485847C0.165152 0.0801213 0.101687 0.125204 0.0594169 0.178986C0.0171465 0.232767 -0.00232967 0.293212 0.00308273 0.35382C0.00849514 0.414428 0.0385914 0.472905 0.0901349 0.522964L4.59049 4.856Z" fill="#6C757D"/>
+                        </svg>
+                    </button>
+                    <button class="flex flex-row items-center gap-4 border border-brandBlack4 rounded-five px-2 pb-2 pt-1 text-brandBlack2 text-fifteen">
+                        <p class="pt-1">Property type</p>
+                        <svg width="11" height="5" viewBox="0 0 11 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.59049 4.856C4.63636 4.90041 4.69774 4.93672 4.76935 4.96181C4.84095 4.98689 4.92063 5 5.00152 5C5.08241 5 5.16209 4.98689 5.23369 4.96181C5.3053 4.93672 5.36668 4.90041 5.41255 4.856L9.9129 0.522964C9.965 0.472987 9.99554 0.414449 10.0012 0.353711C10.0069 0.292973 9.98752 0.232358 9.94515 0.178452C9.90278 0.124546 9.83906 0.0794107 9.76091 0.0479494C9.68276 0.0164882 9.59317 -9.54414e-05 9.50187 4.13189e-07H0.501167C0.410082 0.000251199 0.320822 0.0170481 0.242987 0.0485847C0.165152 0.0801213 0.101687 0.125204 0.0594169 0.178986C0.0171465 0.232767 -0.00232967 0.293212 0.00308273 0.35382C0.00849514 0.414428 0.0385914 0.472905 0.0901349 0.522964L4.59049 4.856Z" fill="#6C757D"/>
+                        </svg>
+                    </button>
+                    <button class="flex flex-row items-center gap-4 border border-brandBlack4 rounded-five px-2 pb-2 pt-1 text-brandBlack2 text-fifteen">
+                        <p class="pt-1">Beds / Baths</p>
+                        <svg width="11" height="5" viewBox="0 0 11 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.59049 4.856C4.63636 4.90041 4.69774 4.93672 4.76935 4.96181C4.84095 4.98689 4.92063 5 5.00152 5C5.08241 5 5.16209 4.98689 5.23369 4.96181C5.3053 4.93672 5.36668 4.90041 5.41255 4.856L9.9129 0.522964C9.965 0.472987 9.99554 0.414449 10.0012 0.353711C10.0069 0.292973 9.98752 0.232358 9.94515 0.178452C9.90278 0.124546 9.83906 0.0794107 9.76091 0.0479494C9.68276 0.0164882 9.59317 -9.54414e-05 9.50187 4.13189e-07H0.501167C0.410082 0.000251199 0.320822 0.0170481 0.242987 0.0485847C0.165152 0.0801213 0.101687 0.125204 0.0594169 0.178986C0.0171465 0.232767 -0.00232967 0.293212 0.00308273 0.35382C0.00849514 0.414428 0.0385914 0.472905 0.0901349 0.522964L4.59049 4.856Z" fill="#6C757D"/>
+                        </svg>
+                    </button>
+                    <button class="flex flex-row items-center gap-4 border border-brandBlack4 rounded-five px-2 pb-2 pt-1 text-brandBlack2 text-fifteen">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 2.66626H4.33333M16 2.66626H7.66667M1 8.49959H11M16 8.49959H14.3333M1 14.3329H2.66667M16 14.3329H6" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M5.99919 4.33333C6.91966 4.33333 7.66585 3.58714 7.66585 2.66667C7.66585 1.74619 6.91966 1 5.99919 1C5.07871 1 4.33252 1.74619 4.33252 2.66667C4.33252 3.58714 5.07871 4.33333 5.99919 4.33333Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M12.6679 10.1671C13.5884 10.1671 14.3346 9.42088 14.3346 8.50041C14.3346 7.57993 13.5884 6.83374 12.6679 6.83374C11.7474 6.83374 11.0012 7.57993 11.0012 8.50041C11.0012 9.42088 11.7474 10.1671 12.6679 10.1671Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M4.33293 15.9999C5.2534 15.9999 5.99959 15.2537 5.99959 14.3332C5.99959 13.4128 5.2534 12.6666 4.33293 12.6666C3.41245 12.6666 2.66626 13.4128 2.66626 14.3332C2.66626 15.2537 3.41245 15.9999 4.33293 15.9999Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <p class="pt-1">All filters</p>
+                    </button>
+                    <button class="flex flex-row items-center gap-4 border border-brandBlack4 rounded-five py-2 px-4 bg-brandBlue text-white text-fifteen">
+                        <p>Save Search</p>
+                    </button>
+                </div>
+                <div class="flex flex-row justify-between">
+                    <h2 class="font-biotifMedium">433 results</h2>
+                    <div class="flex flex-row gap-4">
+                        <h3>Sort by:</h3>
+                        <button type="button" class="flex flex-row items-center text-brandBlue gap-4">
+                            <p>Just For You</p>
+                            <svg width="11" height="5" viewBox="0 0 11 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.59049 4.856C4.63636 4.90041 4.69774 4.93672 4.76935 4.96181C4.84095 4.98689 4.92063 5 5.00152 5C5.08241 5 5.16209 4.98689 5.23369 4.96181C5.3053 4.93672 5.36668 4.90041 5.41255 4.856L9.9129 0.522964C9.965 0.472987 9.99554 0.414449 10.0012 0.353711C10.0069 0.292973 9.98752 0.232358 9.94515 0.178452C9.90278 0.124546 9.83906 0.0794107 9.76091 0.0479494C9.68276 0.0164882 9.59317 -9.54414e-05 9.50187 4.13189e-07H0.501167C0.410082 0.000251199 0.320822 0.0170481 0.242987 0.0485847C0.165152 0.0801213 0.101687 0.125204 0.0594169 0.178986C0.0171465 0.232767 -0.00232967 0.293212 0.00308273 0.35382C0.00849514 0.414428 0.0385914 0.472905 0.0901349 0.522964L4.59049 4.856Z" fill="#6C757D"/>
+                            </svg>                                
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <main class="flex flex-row gap-6 w-full pt-16 ">
+                <div class=" w-1/3 h-auto">
+                    <main class="bg-white shadow-lg h-auto pb-2">
+                        <div class="block h-56 w-full bg-[url('./../../assets/images/houses/couch-stephen-leonardi.png')] bg-cover relative" >
+                            <div  class="absolute top-5 text-thirteen left-2 z-30">
+                                <button type="button" class="text-white font-biotifRegular bg-brandGreen1 rounded-lg px-2 py-1">
+                                    <p>New Listing</p>
+                                </button>
+                                <button type="button" class="text-white font-biotifRegular bg-brandPurple rounded-lg px-2 py-1">
+                                    <p>Video Tour</p>
+                                </button>
+                                <button type="button" class="text-white font-biotifRegular bg-brandOrange rounded-lg px-2 py-1">
+                                    <p>Hot</p>
+                                </button>
+                            </div>
+                            <button type="button" class="rotate-180 absolute top-fiftyPercent -translate-y-fiftyPercent left-2 z-30">
+                                <svg width="10" height="20" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.845455 0.682739L0 1.66169L4.33636 6.68274L0 11.7038L0.845455 12.6827L6 6.68274L0.845455 0.682739Z" fill="white"/>
+                                </svg>
+                            </button>
+                            <button type="button" class="absolute top-fiftyPercent -translate-y-fiftyPercent right-2 z-30">
+                                <svg width="10" height="20" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.845455 0.682739L0 1.66169L4.33636 6.68274L0 11.7038L0.845455 12.6827L6 6.68274L0.845455 0.682739Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="p-5 space-y-4 font-biotifBook text-sm">
+                            <h3 class="text-2xl">N5,000,000</h3>
+                            <div class="flex flex-row items-center gap-5 text-fifteen">
+                                <p>3 Beds</p>
+                                <p>|</p>
+                                <p>2 Bath</p>
+                                <p>|</p>
+                                <p>1.87k  Sq Ft</p>
+                            </div>
+                            <p>1333 Jones St. Choba, Port Harcourt, Rivers</p>
+                            <p>Listing by Nest Seekers International</p>
+                            <button class="w-full py-1 rounded-five border border-brandBlue text-brandBlue flex flex-row items-center justify-center gap-2">
+                                <svg class="" width="18" height="18" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.1456 1.2C13.6136 1.19963 14.0769 1.28648 14.5085 1.45545C14.94 1.62442 15.3311 1.87211 15.6587 2.184C16.3339 2.82383 16.7123 3.68589 16.7123 4.584C16.7123 5.48211 16.3339 6.34417 15.6587 6.984L9 13.278L2.34129 6.984C1.66615 6.34417 1.28771 5.48211 1.28771 4.584C1.28771 3.68589 1.66615 2.82383 2.34129 2.184C2.66914 1.87233 3.06023 1.62477 3.49172 1.45578C3.92321 1.28678 4.38645 1.19974 4.85437 1.19974C5.3223 1.19974 5.78553 1.28678 6.21702 1.45578C6.64851 1.62477 7.03961 1.87233 7.36746 2.184L9 3.744L10.6261 2.196C10.9528 1.88039 11.3443 1.62952 11.7772 1.45838C12.2101 1.28725 12.6755 1.19937 13.1456 1.2ZM13.1456 1.60971e-06C12.5065 -0.000504023 11.8737 0.118115 11.2843 0.348903C10.695 0.579691 10.1609 0.918003 9.71343 1.344L9 2.016L8.28657 1.344C7.83855 0.918771 7.30434 0.581047 6.71508 0.350516C6.12581 0.119985 5.49329 0.00125846 4.85437 0.00125846C4.21546 0.00125846 3.58293 0.119985 2.99367 0.350516C2.40441 0.581047 1.8702 0.918771 1.42218 1.344C0.510705 2.21018 0 3.37582 0 4.59C0 5.80419 0.510705 6.96983 1.42218 7.836L9 15L16.5778 7.836C17.4893 6.96983 18 5.80419 18 4.59C18 3.37582 17.4893 2.21018 16.5778 1.344C16.1299 0.918544 15.5958 0.580587 15.0065 0.349838C14.4172 0.119089 13.7846 0.000165659 13.1456 1.60971e-06Z" fill="#0096C7"/>
+                                </svg>
+                                <p class="pt-sixPixel">SAVE</p>
+                            </button>
+                        </div>
+                    </main>
+                </div>
+                <div class=" w-1/3 h-auto">
+                    <main class="bg-white shadow-lg h-auto pb-2">
+                        <div class="block h-56 w-full bg-[url('./../../assets/images/houses/couch-stephen-leonardi.png')] bg-cover"></div>
+                        <div class="p-5 space-y-4 font-biotifBook text-sm">
+                            <h3 class="text-2xl">N5,000,000</h3>
+                            <div class="flex flex-row items-center gap-5 text-fifteen">
+                                <p>3 Beds</p>
+                                <p>|</p>
+                                <p>2 Bath</p>
+                                <p>|</p>
+                                <p>1.87k  Sq Ft</p>
+                            </div>
+                            <p>1333 Jones St. Choba, Port Harcourt, Rivers</p>
+                            <p>Listing by Nest Seekers International</p>
+                            <button class="w-full py-1 rounded-five border border-brandBlue text-brandBlue flex flex-row items-center justify-center gap-2">
+                                <svg class="" width="18" height="18" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.1456 1.2C13.6136 1.19963 14.0769 1.28648 14.5085 1.45545C14.94 1.62442 15.3311 1.87211 15.6587 2.184C16.3339 2.82383 16.7123 3.68589 16.7123 4.584C16.7123 5.48211 16.3339 6.34417 15.6587 6.984L9 13.278L2.34129 6.984C1.66615 6.34417 1.28771 5.48211 1.28771 4.584C1.28771 3.68589 1.66615 2.82383 2.34129 2.184C2.66914 1.87233 3.06023 1.62477 3.49172 1.45578C3.92321 1.28678 4.38645 1.19974 4.85437 1.19974C5.3223 1.19974 5.78553 1.28678 6.21702 1.45578C6.64851 1.62477 7.03961 1.87233 7.36746 2.184L9 3.744L10.6261 2.196C10.9528 1.88039 11.3443 1.62952 11.7772 1.45838C12.2101 1.28725 12.6755 1.19937 13.1456 1.2ZM13.1456 1.60971e-06C12.5065 -0.000504023 11.8737 0.118115 11.2843 0.348903C10.695 0.579691 10.1609 0.918003 9.71343 1.344L9 2.016L8.28657 1.344C7.83855 0.918771 7.30434 0.581047 6.71508 0.350516C6.12581 0.119985 5.49329 0.00125846 4.85437 0.00125846C4.21546 0.00125846 3.58293 0.119985 2.99367 0.350516C2.40441 0.581047 1.8702 0.918771 1.42218 1.344C0.510705 2.21018 0 3.37582 0 4.59C0 5.80419 0.510705 6.96983 1.42218 7.836L9 15L16.5778 7.836C17.4893 6.96983 18 5.80419 18 4.59C18 3.37582 17.4893 2.21018 16.5778 1.344C16.1299 0.918544 15.5958 0.580587 15.0065 0.349838C14.4172 0.119089 13.7846 0.000165659 13.1456 1.60971e-06Z" fill="#0096C7"/>
+                                </svg>
+                                <p class="pt-sixPixel">SAVE</p>
+                            </button>
+                        </div>
+                    </main>
+                </div>
+                <div class=" w-1/3 h-auto">
+                    <main class="bg-white shadow-lg h-auto pb-2">
+                        <div class="block h-56 w-full bg-[url('./../../assets/images/houses/couch-stephen-leonardi.png')] bg-cover"></div>
+                        <div class="p-5 space-y-4 font-biotifBook text-sm">
+                            <h3 class="text-2xl">N5,000,000</h3>
+                            <div class="flex flex-row items-center gap-5 text-fifteen">
+                                <p>3 Beds</p>
+                                <p>|</p>
+                                <p>2 Bath</p>
+                                <p>|</p>
+                                <p>1.87k  Sq Ft</p>
+                            </div>
+                            <p>1333 Jones St. Choba, Port Harcourt, Rivers</p>
+                            <p>Listing by Nest Seekers International</p>
+                            <button class="w-full py-1 rounded-five border border-brandBlue text-brandBlue flex flex-row items-center justify-center gap-2">
+                                <svg class="" width="18" height="18" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.1456 1.2C13.6136 1.19963 14.0769 1.28648 14.5085 1.45545C14.94 1.62442 15.3311 1.87211 15.6587 2.184C16.3339 2.82383 16.7123 3.68589 16.7123 4.584C16.7123 5.48211 16.3339 6.34417 15.6587 6.984L9 13.278L2.34129 6.984C1.66615 6.34417 1.28771 5.48211 1.28771 4.584C1.28771 3.68589 1.66615 2.82383 2.34129 2.184C2.66914 1.87233 3.06023 1.62477 3.49172 1.45578C3.92321 1.28678 4.38645 1.19974 4.85437 1.19974C5.3223 1.19974 5.78553 1.28678 6.21702 1.45578C6.64851 1.62477 7.03961 1.87233 7.36746 2.184L9 3.744L10.6261 2.196C10.9528 1.88039 11.3443 1.62952 11.7772 1.45838C12.2101 1.28725 12.6755 1.19937 13.1456 1.2ZM13.1456 1.60971e-06C12.5065 -0.000504023 11.8737 0.118115 11.2843 0.348903C10.695 0.579691 10.1609 0.918003 9.71343 1.344L9 2.016L8.28657 1.344C7.83855 0.918771 7.30434 0.581047 6.71508 0.350516C6.12581 0.119985 5.49329 0.00125846 4.85437 0.00125846C4.21546 0.00125846 3.58293 0.119985 2.99367 0.350516C2.40441 0.581047 1.8702 0.918771 1.42218 1.344C0.510705 2.21018 0 3.37582 0 4.59C0 5.80419 0.510705 6.96983 1.42218 7.836L9 15L16.5778 7.836C17.4893 6.96983 18 5.80419 18 4.59C18 3.37582 17.4893 2.21018 16.5778 1.344C16.1299 0.918544 15.5958 0.580587 15.0065 0.349838C14.4172 0.119089 13.7846 0.000165659 13.1456 1.60971e-06Z" fill="#0096C7"/>
+                                </svg>
+                                <p class="pt-sixPixel">SAVE</p>
+                            </button>
+                        </div>
+                    </main>
+                    
+                </div>
+            </main>
+            <div class="flex flex-col items-center justify-center py-20 px-4">
+                <p>Viewing page 1 of 3</p>
+                <div class="flex flex-row gap-10 py-10">
+                    <button type="button" class="rotate-180">
+                        <svg width="9" height="14" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.845455 0.682739L0 1.66169L4.33636 6.68274L0 11.7038L0.845455 12.6827L6 6.68274L0.845455 0.682739Z" fill="#ADB5BD"/>
+                        </svg>
+                    </button>
+                    <p href="#" class="h-10 w-10 flex flex-row items-center justify-center rounded-fiftyPercent border border-brandBlue">1</p>
+                    <p href="#" class="h-10 w-10 flex flex-row items-center justify-center rounded-fiftyPercent">2</p>
+                    <p href="#" class="h-10 w-10 flex flex-row items-center justify-center rounded-fiftyPercent">3</p>
+                    <button type="button" class="">
+                        <svg width="9" height="14" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.845455 0.682739L0 1.66169L4.33636 6.68274L0 11.7038L0.845455 12.6827L6 6.68274L0.845455 0.682739Z" fill="#ADB5BD"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </main>
+        <button type="button" class="absolute rounded-five flex flex-row items-center justify-center bg-brandWhite shadow-md p-tenPixel top-fiftyPercent left-88 w-8 h-16 -translate-y-fiftyPercent">
+            <svg width="9" height="14" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.845455 0.682739L0 1.66169L4.33636 6.68274L0 11.7038L0.845455 12.6827L6 6.68274L0.845455 0.682739Z" fill="#343A40"/>
+            </svg>
+        </button>
+
+    </section>
+
+    <footer class="bg-brandGrey w-full text-center text-white font-biotifBook">
+        <section class="border-b space-y-3 border-brandBlack6 py-12">
+            <h1 class="text-xl">Download the Hauzit app</h1>
+            <p>Don't miss out on the right property for you — 
+                browse up-to-date listings, 
+                refine your search and more from our mobile app
+            </p>
+            <div class="pt-8 flex flex-row justify-center gap-7">
+                <button class="rounded-ten flex flex-row items-center text-left gap-2  border border-white py-1 px-2">
+                    <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.721 11.6262C16.7096 9.82294 17.5937 8.46385 19.3791 7.46173C18.3805 6.13967 16.8698 5.41253 14.8784 5.27239C12.9928 5.1349 10.9299 6.28774 10.1745 6.28774C9.37625 6.28774 7.55079 5.31999 6.11445 5.31999C3.15021 5.36229 0 7.50403 0 11.8616C0 13.1492 0.254649 14.4792 0.763948 15.8489C1.44492 17.6522 3.89986 22.0705 6.46066 21.9991C7.79971 21.9701 8.74678 21.1213 10.4893 21.1213C12.1803 21.1213 13.0558 21.9991 14.5494 21.9991C17.133 21.9648 19.3534 17.9483 20 16.1398C16.535 14.63 16.721 11.7188 16.721 11.6262ZM13.7139 3.56164C15.1645 1.96988 15.0329 0.520893 14.99 0C13.7082 0.0687473 12.226 0.806459 11.382 1.71339C10.4521 2.68643 9.90558 3.88951 10.0229 5.24595C11.4077 5.34378 12.6724 4.68539 13.7139 3.56164Z" fill="white"/>
+                    </svg>
+                    <div>
+                        <p class="font-biotifLight text-sm">Download on the</p>
+                        <p class="font-biotifMedium">App Store</a>
+                    </div>
+                </button>
+                <button class="rounded-ten flex flex-row items-center text-left gap-2  border border-white py-1 px-2">
+                    <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.6875 1.47479V20.7737C0.687627 20.8155 0.699853 20.8564 0.722646 20.8912C0.745439 20.926 0.777784 20.9532 0.815625 20.9693C0.853466 20.9854 0.895118 20.9897 0.935359 20.9817C0.9756 20.9738 1.01264 20.9538 1.04183 20.9244L10.8799 11.1247L1.04183 1.32404C1.01264 1.29464 0.9756 1.2747 0.935359 1.26672C0.895118 1.25873 0.853466 1.26307 0.815625 1.27917C0.777784 1.29527 0.745439 1.32242 0.722646 1.35722C0.699853 1.39202 0.687627 1.43292 0.6875 1.47479Z" fill="white"/>
+                        <path d="M15.0052 7.09803L2.6695 0.15633L2.66181 0.151911C2.44931 0.0340552 2.24738 0.327712 2.42142 0.498603L12.0912 9.94277L15.0052 7.09803Z" fill="white"/>
+                        <path d="M2.42199 21.7509C2.24699 21.9218 2.44891 22.2155 2.66237 22.0976L2.67007 22.0932L15.0048 15.1515L12.0908 12.3058L2.42199 21.7509Z" fill="white"/>
+                        <path d="M19.9847 9.89709L16.54 7.95935L13.301 11.1248L16.54 14.2887L19.9847 12.3524C20.9217 11.8235 20.9217 10.426 19.9847 9.89709Z" fill="white"/>
+                    </svg>   
+                    <div>
+                        <p class="font-biotifLight text-sm">Download it on</p>
+                        <p class="font-biotifMedium">Google Play</a>
+                    </div>
+                </button>
+            </div>
+        </section>
+        <section class="py-12 flex flex-row justify-evenly">
+            <a href="./../index.html" class="space-y-5 self-center">
+                <svg width="158" height="34" viewBox="0 0 158 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 1H30V32.8298L14.5588 29.5532L6.39706 34L0 1Z" fill="white"/>
+                    <path d="M12.3525 5.21278L29.1172 2.17023V31.6596L15.6614 28.149L12.3525 5.21278Z" fill="#212529"/>
+                    <path d="M43.56 6.544H47.944V16.176L57.736 16.208V6.544H62.152V30H57.736V20.112L47.944 20.048V30H43.56V6.544ZM79.8875 24.688H71.4075L69.5515 30H65.0075L73.4555 6.544H77.7435H77.8715L86.3195 30H81.6795L79.8875 24.688ZM78.6075 21.04L75.6635 12.464L72.6875 21.04H78.6075ZM87.6798 6.544H92.0638V21.296C92.0638 22.0853 92.1918 22.7893 92.4478 23.408C92.7038 24.0267 93.0664 24.5493 93.5358 24.976C94.0051 25.3813 94.5491 25.6907 95.1678 25.904C95.8078 26.1173 96.4904 26.224 97.2158 26.224C97.9411 26.224 98.6131 26.1173 99.2318 25.904C99.8718 25.6693 100.426 25.3387 100.896 24.912C101.365 24.4853 101.738 23.9733 102.016 23.376C102.293 22.7573 102.432 22.064 102.432 21.296V6.544H106.784V21.424C106.784 22.8533 106.528 24.1227 106.016 25.232C105.525 26.3413 104.842 27.28 103.968 28.048C103.093 28.816 102.08 29.4027 100.928 29.808C99.7758 30.192 98.5384 30.384 97.2158 30.384C95.9358 30.384 94.7198 30.192 93.5677 29.808C92.4158 29.4027 91.4024 28.816 90.5278 28.048C89.6531 27.28 88.9598 26.3413 88.4478 25.232C87.9358 24.1227 87.6798 22.8533 87.6798 21.424V6.544ZM126.244 10.704L115.204 25.808H126.084V30H110.404L110.372 25.808L121.38 10.736L110.404 10.768V6.544H126.244V10.704ZM130.091 30V6.544H134.475V30H130.091ZM155.144 10.672H148.552V30H144.168V10.672H137.544V6.544H155.144V10.672Z" fill="white"/>
+                </svg>
+                <p class="text-xs font-biotifLight">&copy; 2022 Hauzit. All rights reserved </p>
+            </a>
+            <div class="flex flex-row gap-20">
+                <ul class="flex flex-col gap-3 text-left">
+                    <h2 class="font-biotifBold">Explore</h2>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Buy</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Rent</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Sell</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Home loans</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Professionals</a></li>
+                </ul>
+                <ul class="flex flex-col gap-3 text-left">
+                    <h2 class="font-biotifBold">Community</h2>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">List rental</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Work with us</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Guide</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Blog</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Terms of use</a></li>
+                </ul>
+                <ul class="flex flex-col gap-3 text-left">
+                    <h2 class="font-biotifBold">Company</h2>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">About us</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Contact</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Hauzit campus</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Hauzit invest</a></li>
+                    <li class="font-biotifLight"><a href="#" class="hover:text-brandBlue">Listing & advertising policy</a></li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-2">
+                <h2 class="font-biotifBold text-left">Connect</h2>
+                <div class="flex flex-row gap-7">
+                    <a href="#" class="group">
+                        <svg  width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="group-hover:fill-brandBlue" d="M21 2.4793C20.2277 2.8802 19.3981 3.15108 18.526 3.27351C19.4259 2.64268 20.0991 1.64984 20.4201 0.480223C19.5746 1.06856 18.6493 1.48268 17.6844 1.70459C17.0355 0.892894 16.176 0.354889 15.2393 0.174103C14.3027 -0.00668301 13.3413 0.179865 12.5044 0.704783C11.6675 1.2297 11.002 2.06362 10.6111 3.07708C10.2203 4.09053 10.1259 5.22681 10.3428 6.30951C8.62963 6.20874 6.95372 5.68708 5.4238 4.7784C3.89389 3.86972 2.54416 2.59433 1.46221 1.03498C1.09227 1.7826 0.879547 2.64941 0.879547 3.57256C0.879135 4.40361 1.05382 5.22193 1.38811 5.95491C1.7224 6.68789 2.20595 7.31288 2.79587 7.77441C2.11172 7.74891 1.44267 7.53234 0.844402 7.14273V7.20774C0.844333 8.37331 1.18848 9.50302 1.81846 10.4052C2.44843 11.3073 3.32542 11.9263 4.30063 12.1572C3.66597 12.3584 3.00058 12.3881 2.35471 12.2439C2.62985 13.2468 3.16581 14.1238 3.88755 14.7521C4.60929 15.3805 5.48068 15.7287 6.37972 15.748C4.85354 17.1516 2.96871 17.9129 1.02845 17.9096C0.684753 17.9097 0.341346 17.8862 0 17.8391C1.96948 19.3227 4.2621 20.11 6.60354 20.1069C14.5296 20.1069 18.8626 12.4162 18.8626 5.74608C18.8626 5.52938 18.858 5.31051 18.8497 5.09381C19.6925 4.37975 20.42 3.49552 20.9982 2.48255L21 2.4793Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="group">
+                        <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="group-hover:fill-brandBlue" d="M11.9883 0C0.686081 0 0.488281 1.24857 0.488281 11C0.488281 20.7514 0.686081 22 11.9883 22C23.2905 22 23.4883 20.7514 23.4883 11C23.4883 1.24857 23.2905 0 11.9883 0ZM15.674 11.4771L10.5105 14.4714C10.0586 14.7314 9.68828 14.44 9.68828 13.82V8.18C9.68828 7.56143 10.0586 7.26857 10.5105 7.52857L15.674 10.5229C16.126 10.7857 16.126 11.2143 15.674 11.4771Z" fill="white"/>
+                        </svg> 
+                    </a>
+                    <a href="#" class="group">
+                        <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="group-hover:fill-brandBlue" fill-rule="evenodd" clip-rule="evenodd" d="M7.32877 0.151693C8.50177 0.0976933 8.87577 0.0856934 11.8638 0.0856934C14.8518 0.0856934 15.2258 0.0986933 16.3978 0.151693C17.5698 0.204693 18.3698 0.391693 19.0698 0.662693C19.8028 0.939693 20.4678 1.37269 21.0178 1.93269C21.5778 2.48169 22.0098 3.14569 22.2858 3.87969C22.5578 4.57969 22.7438 5.37969 22.7978 6.54969C22.8518 7.72469 22.8638 8.09869 22.8638 11.0857C22.8638 14.0737 22.8508 14.4477 22.7978 15.6207C22.7448 16.7907 22.5578 17.5907 22.2858 18.2907C22.0098 19.0248 21.577 19.6899 21.0178 20.2397C20.4678 20.7997 19.8028 21.2317 19.0698 21.5077C18.3698 21.7797 17.5698 21.9657 16.3998 22.0197C15.2258 22.0737 14.8518 22.0857 11.8638 22.0857C8.87577 22.0857 8.50177 22.0727 7.32877 22.0197C6.15877 21.9667 5.35877 21.7797 4.65877 21.5077C3.92469 21.2317 3.25959 20.7989 2.70977 20.2397C2.15015 19.6904 1.71708 19.0256 1.44077 18.2917C1.16977 17.5917 0.98377 16.7917 0.92977 15.6217C0.87577 14.4467 0.86377 14.0727 0.86377 11.0857C0.86377 8.09769 0.87677 7.72369 0.92977 6.55169C0.98277 5.37969 1.16977 4.57969 1.44077 3.87969C1.71749 3.14577 2.15089 2.48101 2.71077 1.93169C3.25981 1.37219 3.92424 0.939137 4.65777 0.662693C5.35777 0.391693 6.15777 0.205693 7.32777 0.151693H7.32877ZM16.3088 2.13169C15.1488 2.07869 14.8008 2.06769 11.8638 2.06769C8.92677 2.06769 8.57877 2.07869 7.41877 2.13169C6.34577 2.18069 5.76377 2.35969 5.37577 2.51069C4.86277 2.71069 4.49577 2.94769 4.11077 3.33269C3.74581 3.68775 3.46495 4.11998 3.28877 4.59769C3.13777 4.98569 2.95877 5.56769 2.90977 6.64069C2.85677 7.80069 2.84577 8.14869 2.84577 11.0857C2.84577 14.0227 2.85677 14.3707 2.90977 15.5307C2.95877 16.6037 3.13777 17.1857 3.28877 17.5737C3.46477 18.0507 3.74577 18.4837 4.11077 18.8387C4.46577 19.2037 4.89877 19.4847 5.37577 19.6607C5.76377 19.8117 6.34577 19.9907 7.41877 20.0397C8.57877 20.0927 8.92577 20.1037 11.8638 20.1037C14.8018 20.1037 15.1488 20.0927 16.3088 20.0397C17.3818 19.9907 17.9638 19.8117 18.3518 19.6607C18.8648 19.4607 19.2318 19.2237 19.6168 18.8387C19.9818 18.4837 20.2628 18.0507 20.4388 17.5737C20.5898 17.1857 20.7688 16.6037 20.8178 15.5307C20.8708 14.3707 20.8818 14.0227 20.8818 11.0857C20.8818 8.14869 20.8708 7.80069 20.8178 6.64069C20.7688 5.56769 20.5898 4.98569 20.4388 4.59769C20.2388 4.08469 20.0018 3.71769 19.6168 3.33269C19.2617 2.96776 18.8295 2.6869 18.3518 2.51069C17.9638 2.35969 17.3818 2.18069 16.3088 2.13169ZM10.4588 14.4767C11.2434 14.8033 12.1171 14.8474 12.9307 14.6014C13.7442 14.3554 14.4472 13.8346 14.9194 13.1279C15.3916 12.4213 15.6038 11.5726 15.5198 10.7268C15.4358 9.88103 15.0608 9.09067 14.4588 8.49069C14.075 8.10717 13.611 7.81351 13.1001 7.63084C12.5892 7.44817 12.0442 7.38105 11.5043 7.43431C10.9643 7.48756 10.4429 7.65987 9.97757 7.93882C9.51222 8.21778 9.11451 8.59644 8.81307 9.04754C8.51163 9.49865 8.31396 10.011 8.23429 10.5477C8.15461 11.0843 8.19492 11.632 8.35231 12.1512C8.5097 12.6704 8.78025 13.1483 9.14449 13.5504C9.50873 13.9525 9.95759 14.2689 10.4588 14.4767ZM7.86577 7.08769C8.39079 6.56267 9.01409 6.1462 9.70007 5.86205C10.386 5.57791 11.1213 5.43167 11.8638 5.43167C12.6063 5.43167 13.3415 5.57791 14.0275 5.86205C14.7134 6.1462 15.3367 6.56267 15.8618 7.08769C16.3868 7.61272 16.8033 8.23601 17.0874 8.92199C17.3715 9.60797 17.5178 10.3432 17.5178 11.0857C17.5178 11.8282 17.3715 12.5634 17.0874 13.2494C16.8033 13.9354 16.3868 14.5587 15.8618 15.0837C14.8014 16.144 13.3633 16.7397 11.8638 16.7397C10.3642 16.7397 8.9261 16.144 7.86577 15.0837C6.80543 14.0234 6.20974 12.5852 6.20974 11.0857C6.20974 9.58615 6.80543 8.14803 7.86577 7.08769ZM18.7718 6.27369C18.9019 6.15096 19.006 6.00337 19.0781 5.83967C19.1501 5.67596 19.1886 5.49946 19.1912 5.32062C19.1938 5.14178 19.1605 4.96424 19.0933 4.7985C19.026 4.63277 18.9262 4.4822 18.7997 4.35573C18.6733 4.22926 18.5227 4.12945 18.357 4.06221C18.1912 3.99497 18.0137 3.96167 17.8348 3.96428C17.656 3.96688 17.4795 4.00535 17.3158 4.07739C17.1521 4.14943 17.0045 4.25359 16.8818 4.38369C16.6431 4.63672 16.5124 4.97281 16.5175 5.32062C16.5225 5.66843 16.663 6.00057 16.9089 6.24654C17.1549 6.4925 17.487 6.63292 17.8348 6.63799C18.1826 6.64306 18.5187 6.51238 18.7718 6.27369Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+</body>
+</html>
