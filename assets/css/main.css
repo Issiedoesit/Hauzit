@@ -740,6 +740,10 @@ video {
   height: 4rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .h-380 {
   height: 23.75rem;
 }
@@ -750,10 +754,6 @@ video {
 
 .h-0 {
   height: 0px;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .h-fit {
@@ -872,6 +872,10 @@ video {
   width: 6.25rem;
 }
 
+.w-thirtyPercent {
+  width: 30%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -911,12 +915,24 @@ video {
   cursor: pointer;
 }
 
+.resize-none {
+  resize: none;
+}
+
 .flex-row {
   flex-direction: row;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -1105,6 +1121,11 @@ video {
   border-color: rgb(173 181 189 / var(--tw-border-opacity));
 }
 
+.border-brandBlack5 {
+  --tw-border-opacity: 1;
+  border-color: rgb(206 212 218 / var(--tw-border-opacity));
+}
+
 .bg-gray-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
@@ -1169,13 +1190,13 @@ video {
   background-color: rgb(237 101 54 / var(--tw-bg-opacity));
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-brandRed {
   --tw-bg-opacity: 1;
   background-color: rgb(227 80 83 / var(--tw-bg-opacity));
-}
-
-.bg-transparent {
-  background-color: transparent;
 }
 
 .bg-\[url\(\'\.\/\.\.\/\.\.\/assets\/images\/banner\/cover-home\.jpg\'\)\] {
@@ -1335,6 +1356,16 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.px-twentyPercent {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.px-fifteenPercent {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 .pl-20 {
   padding-left: 5rem;
 }
@@ -1463,6 +1494,10 @@ video {
   font-family: biotif-extra-bold, sans-serif;
 }
 
+.font-biotifRegular2 {
+  font-family: biotif-regular-2, sans-serif;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1528,14 +1563,14 @@ video {
   color: rgb(73 80 87 / var(--tw-text-opacity));
 }
 
-.text-brandBlack1x {
-  --tw-text-opacity: 1;
-  color: rgb(68 68 67 / var(--tw-text-opacity));
-}
-
 .text-brandBlack4 {
   --tw-text-opacity: 1;
   color: rgb(173 181 189 / var(--tw-text-opacity));
+}
+
+.text-brandBlack1x {
+  --tw-text-opacity: 1;
+  color: rgb(68 68 67 / var(--tw-text-opacity));
 }
 
 .shadow-md {
