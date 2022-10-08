@@ -81,7 +81,12 @@ module.exports = {
         '100': '100',
       },
       borderWidth:{
-        '0.3': '0.01875rem' ,
+        '0.3': '0.01875rem',
+        '0.5': '0.03125rem',
+      },
+      minWidth: {
+        '1/2': '50%',
+        '350': '21.875rem',
       },
       spacing:{
         'sixPixel': "0.375rem",

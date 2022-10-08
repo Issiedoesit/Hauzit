@@ -28,6 +28,8 @@
             <a href="#" class="border-2 border-gray-400 rounded-five px-2 py-2">Sign in or Log in</a>
         </span>
     </header>
+
+    <!-- hero section -->
     <section class="h-auto  bg-brandWhite w-full px-20">
         <div class="flex flex-row justify-between w-full py-4 text-fifteen">
             <button type="button" class="flex flex-row gap-3 items-center">
@@ -51,22 +53,28 @@
         </div>
         <main>
             <div class="h-550 w-full flex flex-row gap-3">
-                <div class="w-2/3 h-full">
-                    <img src="./../assets/images/houses/stephen-leonardi.jpg" alt="house" class="h-full">
-                </div>
-                <div class="h-full w-1/3 gap-3 flex flex-col">
-                    <div class="h-1/2">
-                        <img src="./../assets/images/colourful-workspace.png" alt="colorful workspace" class="h-full">
+                <div class="w-2/3 h-full relative bg-[url('./../../assets/images/houses/stephen-leonardi.jpg')] bg-cover">
+                    <div class="absolute bottom-10 left-5 flex flex-row items-center gap-2 p-tenPixel bg-black/60 rounded-five w-fit h-fit text-white">
+                        <img src="./../assets/images/icon/street-view.svg" alt="">
+                        <h2 class="pt-1">Street View</h2>
                     </div>
-                    <div class="h-1/2">
-                        <img src="./../assets/images/israel-andrade-YI_9SivVt_s-unsplash.png" alt="colorful workspace" class="h-full">
+                </div>
+                <div class="h-550 w-1/3 flex flex-col">
+                    <div class="h-1/2 mb-1.5 bg-[url('./../../assets/images/colourful-workspace.png')] bg-cover">
+                    </div>
+                    <div class="h-1/2 relative mt-1.5 bg-[url('./../../assets/images/israel-andrade-YI_9SivVt_s-unsplash.png')] bg-cover">
+                        <div class="absolute bottom-10 right-5 flex flex-row items-center gap-2 p-tenPixel bg-brandWhite rounded-five w-fit h-fit">
+                            <h2>See all photos</h2>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
 
     </section>
-    <section class="w-full pt-9 px-36">
+
+    <!-- description section -->
+    <section class="w-full pt-9 px-36 flex flex-row gap-20">
         <main  class="w-2/3">
             <div class="w-full">
                 <div class="w-full flex flex-row justify-between text-2xl font-biotifMedium">
@@ -133,6 +141,102 @@
                 </p>
             </div>
         </main>
+        <aside class="h-52 rounded-five w-350">
+            <div class="rounded-five w-full flex flex-row">
+                <div class="w-1/2 border-t border-x border-brandBlack6 py-4 rounded-t-five text-center">
+                    <label for="schedule_tour" class="text-brandBlue font-biotifBook">
+                        Schedule Tour
+                        <input type="checkbox" name="" id="schedule_tour" class="hidden" checked>
+                    </label>
+                </div>
+                <div class="w-1/2 border-b border-brandBlack6 py-4 rounded-t-five text-center">
+                    <label for="schedule_tour" class="text-brandBlue font-biotifBook">
+                        Contact Agent
+                        <input type="checkbox" name="" id="schedule_tour" class="hidden">
+                    </label>
+                </div>
+            </div>
+             <form action="" method="" class="border-b border-x border-brandBlack6 py-7 px-5 rounded-b-five">
+                <div>
+                    <h2 class="text-brandBlack3 inline-block">Tour Type</h2>
+                    <svg class="inline-block ml-3"  width="12" height="12" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z" stroke="#6C757D" stroke-width="2"/>
+                        <path d="M8.9999 12.6V13M7.3999 6.1872C7.7999 5.3952 8.1999 5 8.9999 5C9.9967 5 10.5999 5.7912 10.5999 6.5824C10.5999 7.3736 10.1999 7.7688 8.9999 8.5608V9.8L7.3999 6.1872Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
+                     </svg>
+                </div>
+                <div class="flex flex-row py-2">
+                    <div class="w-1/2 border border-r-0.5 border-brandBlack6 py-3 rounded-l-five text-center">
+                        <label for="in_person" class="font-biotifBook">
+                            In-Person
+                            <input type="checkbox" name="" id="in_person" class="hidden">
+                        </label>
+                    </div>
+                    <div class="w-1/2 border border-l-0.5 border-brandBlack6 bg-brandWhite2 py-3 rounded-r-five text-center">
+                        <label for="schedule_tour" class="font-biotifBook">
+                            Video Chat
+                            <input type="checkbox" name="" id="schedule_tour" class="hidden">
+                        </label>
+                    </div>
+                </div>
+                <div class="py-1.5 relative w-full flex flex-row gap-1.5">
+                    <div class="w-1/4 py-3 px-4 rounded-lg border border-brandBlue">
+                        <label for="wed_ninth_may" class="cursor-pointer">
+                            <p class="text-center">Wed</p>
+                            <p class="text-center">9</p>
+                            <p class="text-center">May</p>
+                            <input type="checkbox" name="" id="wed_ninth_may" class="hidden" checked>
+                        </label>
+                    </div>
+                    <div class="w-1/4 py-3 px-4 rounded-lg border border-brandBlack3">
+                        <label for="thurs_tenth_may" class="cursor-pointer">
+                            <p class="text-center">Thurs</p>
+                            <p class="text-center">10</p>
+                            <p class="text-center">May</p>
+                            <input type="checkbox" name="" id="thurs_tenth_may" class="hidden" checked>
+                        </label>
+                    </div>
+                    <div class="w-1/4 py-3 px-4 rounded-lg border border-brandBlack3">
+                        <label for="fri_eleventh_may" class="cursor-pointer">
+                            <p class="text-center">Fri</p>
+                            <p class="text-center">11</p>
+                            <p class="text-center">May</p>
+                            <input type="checkbox" name="" id="fri_eleventh_may" class="hidden" checked>
+                        </label>
+                    </div>
+                    <div class="w-1/4 py-3 px-4 rounded-lg border border-brandBlack3">
+                        <label for="sat_twelveth_may" class="cursor-pointer">
+                            <p class="text-center">Sat</p>
+                            <p class="text-center">12</p>
+                            <p class="text-center">May</p>
+                            <input type="checkbox" name="" id="sat_twelveth_may" class="hidden" checked>
+                        </label>
+                    </div>
+                    <button type="button" class="absolute rounded-fiftyPercent flex flex-row items-center justify-center bg-brandWhite shadow-md p-tenPixel top-fiftyPercent -right-5 w-9 h-9 -translate-y-fiftyPercent">
+                        <svg width="9" height="14" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.845455 0.682739L0 1.66169L4.33636 6.68274L0 11.7038L0.845455 12.6827L6 6.68274L0.845455 0.682739Z" fill="#343A40"/>
+                        </svg>
+                    </button>
+                </div>
+               <div class="py-1.5">
+                    <select name="" id="appointment_time" class="w-full rounded-lg border border-brandBlack3 p-3">
+                        <option value="Choose a time">Choose a time</option>
+                    </select>
+               </div>
+                <div class="py-1.5">
+                    <label for="phone_no">
+                        <input type="tel" name="" id="phone_no" placeholder="Phone" class="w-full p-3 border border-brandBlack3 placeholder:text-brandBlack3 rounded-lg">
+                    </label>
+                </div>
+                <div class="py-1.5">
+                    <label for="email">
+                        <input type="email" name="" id="email" placeholder="Email" class="w-full p-3 border border-brandBlack3 placeholder:text-brandBlack3 rounded-lg">
+                    </label>
+                </div>
+                <button type="submit" class="font-biotifMedium my-1.5 w-full p-3 rounded-lg bg-brandRed text-white">
+                    Schedule Tour
+                </button>
+            </form>
+        </aside>
     </section>
 
     <!-- map section -->
@@ -173,7 +277,7 @@
     <section class="w-full py-4 pl-36 pr-10 h-auto">
         <main class="w-2/3 h-fit">
             
-            <video poster="./../assets/images/youtube-thumbnail.png" class="w-full h-400 ">
+            <video poster="./../assets/images/youtube-thumbnail.png" class="min-w-full h-400 ">
 
             </video>
         </main>
