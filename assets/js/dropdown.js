@@ -4,8 +4,12 @@ $('.drop-btn').on('change', function() {
     $(this).parents('.drop-container').removeClass('border border-brandBlack5').addClass('border border-brandBlack3')
     $('.drop-btn').not(this).parents('.drop-container').children('.drop-content').addClass('hidden')
     $(this).parents('.drop-container').children('.drop-content').toggleClass('hidden')
+});
 
-
+$(document).on('click',function(e){
+    if(!(($(e.target).closest('.drop-btn').length > 0 ) || ($(e.target).closest('.drop-content').length > 0))){
+        $('.drop-content').addClass('hidden');
+   }
 });
 
 
