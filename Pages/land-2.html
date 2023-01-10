@@ -11,22 +11,32 @@
 </head>
 <body class="text-brandBlack1 font-biotifRegular">
     <!-- Main Content goes here -->
-    <header class="shadow-md  h-18 pl-20 py-3 px-10 items-center justify-between flex flex-auto border-b border-brandBlack6">
-        <a href="./../index.html">
-            <img class="w-auto" src="./../assets/images/logo.svg" alt="Hauzit Logo">
-        </a>
-        <nav class="w-auto space-x-4 ml-20">
-            <a class="font-biotifRegular text-md hover:text-brandBlue" href="./buy.html" >Buy</a>
-            <a class="font-biotifRegular text-md hover:text-brandBlue" href="./rent.html">Rent</a>
-            <a class="font-biotifRegular text-md hover:text-brandBlue" href="./sell.html">Sell</a>
-            <a class="font-biotifRegular text-md hover:text-brandBlue" href="./home-loans.html">Home Loans</a>
-            <a class="font-biotifRegular text-md hover:text-brandBlue" href="./professionals.html">Professionals</a>
-        </nav>
-        <span class="space-x-4 ml-44">
-            <a class="font-biotifRegular text-md" href="./list-rentals.html">List Rentals</a>
-            <a class="font-biotifRegular text-md" href="./work-with-us.html">Work with us</a>
-            <a href="#" class="border-2 border-gray-400 rounded-five px-2 py-2">Sign in or Log in</a>
-        </span>
+     <header class="shadow-md">
+       <nav class="items-center justify-between h-18 py-3 flex flex-auto w-full relative z-10 pl-5 xl:pl-20 px-5 sm:px-10">
+            <a href="./../index.html" class="hover:scale-90 transition-transform duration-500 ease-in-out pr-10"> 
+                <p class="hidden">Hauzit Logo</p>       
+                <img class="w-auto" src="./../../assets/images/logo.svg" alt="Hauzit Logo">
+            </a>
+            <div id="navItems" class="absolute top-18 z-200 bg-white lg:bg-transparent shadow-md lg:shadow-none transition-transform duration-1000 ease-out w-full lg:w-auto left-0 -translate-x-hundredPercent lg:-translate-x-0 lg:static flex-col items-center lg:justify-between flex lg:flex-row flex-auto gap-8 lg:gap-0 py-16 lg:py-0">
+                <div class="w-auto lg:ml-5 xl:ml-20 flex flex-col lg:flex-row items-center gap-8 lg:gap-4">
+                    <a class="font-biotifRegular text-md hover:text-brandBlue transition-colors duration-500 ease-in-out whitespace-nowrap" href="./buy.html">Buy</a>
+                    <a class="font-biotifRegular text-md hover:text-brandBlue transition-colors duration-500 ease-in-out whitespace-nowrap" href="./rent.html">Rent</a>
+                    <a class="font-biotifRegular text-md hover:text-brandBlue transition-colors duration-500 ease-in-out whitespace-nowrap" href="./sell.html">Sell</a>
+                    <a class="font-biotifRegular text-md hover:text-brandBlue transition-colors duration-500 ease-in-out whitespace-nowrap" href="./home-loans.html">Home Loans</a>
+                    <a class="font-biotifRegular text-md hover:text-brandBlue transition-colors duration-500 ease-in-out whitespace-nowrap" href="./professionals.html">Professionals</a>
+                </div>
+                <span class="lg:ml-5 xl:ml-44 flex flex-col lg:flex-row items-center gap-8 lg:gap-4">
+                    <a class="font-biotifRegular text-md hover:text-brandBlue transition-colors duration-500 ease-in-out whitespace-nowrap" href="">List Rentals</a>
+                    <a class="font-biotifRegular text-md hover:text-brandBlue transition-colors duration-500 ease-in-out whitespace-nowrap" href="">Work with us</a>
+                    <a href="#" class="border-2 border-gray-400 rounded-five px-2 py-2 hover:scale-90 transition-transform duration-500 ease-in-out whitespace-nowrap">Sign in or Log in</a>
+                </span>
+            </div>
+            <button type="button" id="hamburger" class="hamburger space-y-1 flex-col gap-1 block lg:hidden">
+                <p class="hidden">Menu</p>
+                <div id="upper_ham" class="h-0.5 w-4 rounded-ten bg-brandBlack1 transition-transform duration-500 ease-in-out"></div>
+                <div class="h-0.5 w-6 rounded-ten bg-brandBlack1"></div>
+            </button>
+       </nav>
     </header>
 
     <!-- hero section -->
