@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rent</title>
+    <title>Hauzit | Rent</title>
     <link rel="shortcut icon" href="./../assets/images/logo-icon-black.png" type="image/x-icon">
     <link rel="stylesheet" href="./../assets/css/font.css">
     <link rel="stylesheet" href="./../assets/css/main.css">
@@ -12,12 +12,12 @@
 <body>
     <!-- Main Content goes here -->
     <header class="shadow-md">
-        <nav class="items-center justify-between h-18 py-3 flex flex-auto w-full relative z-10 pl-5 xl:pl-20 px-5 sm:px-10">
+        <nav class="items-center justify-between h-18 py-3 flex flex-auto w-full relative z-70 pl-5 xl:pl-20 px-5 sm:px-10">
              <a href="./../index.html" class="hover:scale-90 transition-transform duration-500 ease-in-out pr-10"> 
                  <p class="hidden">Hauzit Logo</p>       
                  <img class="w-auto" src="./../../assets/images/logo.svg" alt="Hauzit Logo">
              </a>
-             <div id="navItems" class="absolute top-18 z-200 bg-white lg:bg-transparent shadow-md lg:shadow-none transition-transform duration-1000 ease-out w-full lg:w-auto left-0 -translate-x-hundredPercent lg:-translate-x-0 lg:static flex-col items-center lg:justify-between flex lg:flex-row flex-auto gap-8 lg:gap-0 py-16 lg:py-0">
+             <div id="navItems" class="absolute top-18 z-40 bg-white lg:bg-transparent shadow-md lg:shadow-none transition-transform duration-1000 ease-out w-full lg:w-auto left-0 -translate-x-hundredPercent lg:-translate-x-0 lg:static flex-col items-center lg:justify-between flex lg:flex-row flex-auto gap-8 lg:gap-0 py-16 lg:py-0">
                  <div class="w-auto lg:ml-5 xl:ml-20 flex flex-col lg:flex-row items-center gap-8 lg:gap-4">
                      <a class="font-biotifRegular text-md hover:text-brandBlue transition-colors duration-500 ease-in-out whitespace-nowrap" href="./buy.html">Buy</a>
                      <a class="font-biotifRegular text-md hover:text-brandBlue transition-colors duration-500 ease-in-out whitespace-nowrap" href="./rent.html">Rent</a>
@@ -31,57 +31,70 @@
                      <a href="#" class="border-2 border-gray-400 rounded-five px-2 py-2 hover:scale-90 transition-transform duration-500 ease-in-out whitespace-nowrap">Sign in or Log in</a>
                  </span>
              </div>
-             <button type="button" id="hamburger" class="hamburger space-y-1 flex-col gap-1 block lg:hidden">
+             <button type="button" id="hamburger" class="hamburger space-y-1 flex-col gap-1 block lg:hidden group ease-in-out">
                  <p class="hidden">Menu</p>
-                 <div id="upper_ham" class="h-0.5 w-4 rounded-ten bg-brandBlack1 transition-transform duration-500 ease-in-out"></div>
-                 <div class="h-0.5 w-6 rounded-ten bg-brandBlack1"></div>
+                 <div id="upper_ham" class="h-3px w-6 rounded-ten bg-brandBlack1 ml-2 transition-all duration-500 ease-in-out group-hover:bg-brandBlue"></div>
+                 <div class="h-3px w-8 rounded-ten bg-brandBlack1"></div>
              </button>
         </nav>
      </header>
-    <section class="h-auto  bg-brandGreen pl-28 w-full relative">
-        <main class="bg-white pt-11 pb-7 px-12">
-            <div class="flex flex-col gap-5 w-full justify-between font-biotifBook">
+     <section class="h-auto  bg-brandGreen pl-10 xl:pl-28 w-full relative">
+        <main class="bg-white pt-11 pb-7 px-5 sm:px-8 xl:px-12">
+            <div class="flex flex-col gap-4 sm:gap-5 w-full justify-between font-biotifBook">
                 <h1 class="font-biotifMedium text-lg">Rental Listings</h1>
-                <div class="flex flex-row gap-4 pb-8">
-                    <label for="search_city" class="relative">
-                        <input type="search" name="" id="search_city" placeholder="State, city or neighborhood" class="placeholder:text-brandBlack4 placeholder:text-fifteen border border-brandBlack4 py-2 pl-2 pr-8 w-64 rounded-five">
-                        <svg class="absolute right-5 top-fiftyPercent -translate-y-fiftyPercent" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="flex flex-col gap-6 xl:gap-4 sm:flex-row relative justify-between xl:justify-start md:gap-4 sm:items-center pb-4 sm:pb-8">
+                    <label for="search_city" class="relative w-full xl:w-fit">
+                        <input type="search" name="" id="search_city" placeholder="State, city or neighborhood" class="placeholder:text-brandBlack4 placeholder:text-sm placeholder:2xl:text-fifteen border border-brandBlack4 py-2 pl-2 w-full pr-8 xl:w-60 2xl:w-64 rounded-five">
+                        <svg class="absolute right-10 sm:right-5 top-fiftyPercent -translate-y-fiftyPercent" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.98706 11.9741C7.31543 11.9739 8.60551 11.5292 9.65189 10.7109L12.9418 14.0007L14 12.9425L10.7101 9.65264C11.5288 8.60615 11.9738 7.31577 11.9741 5.98706C11.9741 2.68595 9.28818 0 5.98706 0C2.68595 0 0 2.68595 0 5.98706C0 9.28818 2.68595 11.9741 5.98706 11.9741ZM5.98706 1.49677C8.46346 1.49677 10.4774 3.51066 10.4774 5.98706C10.4774 8.46346 8.46346 10.4774 5.98706 10.4774C3.51066 10.4774 1.49677 8.46346 1.49677 5.98706C1.49677 3.51066 3.51066 1.49677 5.98706 1.49677Z" fill="#495057"/>
                         </svg>                            
                     </label>
-                    <select name="listing-type" id="listing_type" class=" border border-brandBlack4 rounded-five p-2 text-brandBlack2 text-fifteen">
-                        <option value="for-sale" >For Sale</option>            
-                        <option value="for-rent" selected>For Rent</option>            
-                        <option value="land">Land</option>            
-                    </select>
-                    <select name="" id="" class=" border border-brandBlack4 rounded-five p-2 text-brandBlack2 text-fifteen">
-                        <option value="price" selected disabled>Price</option>          
-                    </select>
-                    <select name="" id="" class=" border border-brandBlack4 rounded-five p-2 text-brandBlack2 text-fifteen">
-                        <option value="property-type" selected disabled>Property type</option>          
-                    </select>
-                    <select name="" id="" class=" border border-brandBlack4 rounded-five p-2 text-brandBlack2 text-fifteen">
-                        <option value="bed-baths">Beds / Baths</option>          
-                    </select>
-                    <button class="flex flex-row items-center gap-4 border border-brandBlack4 rounded-five px-2 pb-2 pt-1 text-brandBlack2 text-fifteen">
-                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 2.66626H4.33333M16 2.66626H7.66667M1 8.49959H11M16 8.49959H14.3333M1 14.3329H2.66667M16 14.3329H6" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M5.99919 4.33333C6.91966 4.33333 7.66585 3.58714 7.66585 2.66667C7.66585 1.74619 6.91966 1 5.99919 1C5.07871 1 4.33252 1.74619 4.33252 2.66667C4.33252 3.58714 5.07871 4.33333 5.99919 4.33333Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M12.6679 10.1671C13.5884 10.1671 14.3346 9.42088 14.3346 8.50041C14.3346 7.57993 13.5884 6.83374 12.6679 6.83374C11.7474 6.83374 11.0012 7.57993 11.0012 8.50041C11.0012 9.42088 11.7474 10.1671 12.6679 10.1671Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
-                            <path d="M4.33293 15.9999C5.2534 15.9999 5.99959 15.2537 5.99959 14.3332C5.99959 13.4128 5.2534 12.6666 4.33293 12.6666C3.41245 12.6666 2.66626 13.4128 2.66626 14.3332C2.66626 15.2537 3.41245 15.9999 4.33293 15.9999Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                        <p class="pt-1">All filters</p>
-                    </button>
-                    <button class="flex flex-row items-center gap-4 border border-brandBlack4 rounded-five py-2 px-4 bg-brandBlue text-white text-fifteen">
-                        <p>Save Search</p>
-                    </button>
+                    <div class="relative flex flex-row items-center self-end xl:self-start py-2">
+                        <button id="filters_btn" type="button" class="relative w-32 rounded-five sm:w-40 text-white flex xl:hidden flex-row items-center gap-5 bg-brandBlue px-2 sm:px-5 py-2 h-fit">
+                            <p class="text-sm sm:text-base whitespace-nowrap">Show Filters</p>
+                            <svg id="filters_arrow" class="transition-transform duration-500 ease-in-out" width="11" height="5" viewBox="0 0 11 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.59049 4.856C4.63636 4.90041 4.69774 4.93672 4.76935 4.96181C4.84095 4.98689 4.92063 5 5.00152 5C5.08241 5 5.16209 4.98689 5.23369 4.96181C5.3053 4.93672 5.36668 4.90041 5.41255 4.856L9.9129 0.522964C9.965 0.472987 9.99554 0.414449 10.0012 0.353711C10.0069 0.292973 9.98752 0.232358 9.94515 0.178452C9.90278 0.124546 9.83906 0.0794107 9.76091 0.0479494C9.68276 0.0164882 9.59317 -9.54414e-05 9.50187 4.13189e-07H0.501167C0.410082 0.000251199 0.320822 0.0170481 0.242987 0.0485847C0.165152 0.0801213 0.101687 0.125204 0.0594169 0.178986C0.0171465 0.232767 -0.00232967 0.293212 0.00308273 0.35382C0.00849514 0.414428 0.0385914 0.472905 0.0901349 0.522964L4.59049 4.856Z" fill="#FFFFFF"/>
+                            </svg>  
+                        </button>
+                        <div id="filters_wrap" class="flex flex-col py-0 max-h-0 overflow-y-hidden xl:max-h-fit transition-all duration-700 ease-in-out rounded-five xl:rounded-none xl:flex w-32 sm:w-40 xl:py-0 px-2 sm:px-5 xl:px-0 shadow-md xl:shadow-none bg-white xl:bg-transparent absolute top-[100%] left-0 z-40 xl:static xl:flex-row gap-4 xl:items-center xl:w-full">
+                            <select title="listing type" name="listing-type" id="listing_type" class="border border-brandBlack4 rounded-five p-2 text-brandBlack2 text-sm 2xl:text-fifteen w-full xl:w-auto">
+                                <option value="for-sale">For Sale</option>            
+                                <option value="for-rent" selected>For Rent</option>            
+                                <option value="land">Land</option>            
+                            </select>
+                            <select name="price" title="price" id="price" class="border border-brandBlack4 rounded-five p-2 text-brandBlack2 text-sm 2xl:text-fifteen w-full xl:w-auto">
+                                <option value="price" selected disabled>Price</option>          
+                            </select>
+                            <select name="duration" title="duration" id="duration" class="border border-brandBlack4 rounded-five p-2 text-brandBlack2 text-sm 2xl:text-fifteen w-full xl:w-auto">
+                                <option value="duration" selected disabled>Duration</option>          
+                            </select>
+                            <select name="property-type" title="items-center" id="property_type" class=" border border-brandBlack4 rounded-five p-2 text-brandBlack2 text-sm 2xl:text-fifteen w-full xl:w-auto">
+                                <option value="property-type" selected disabled>Property type</option>          
+                            </select>
+                            <select name="bed-baths" title="bed-baths" id="bed_baths" class=" border border-brandBlack4 rounded-five p-2 text-brandBlack2 text-sm 2xl:text-fifteen w-full xl:w-auto">
+                                <option value="bed-baths">Beds / Baths</option>          
+                            </select>
+                            <button type="button" class="flex flex-row items-center gap-4 border border-brandBlack4 rounded-five px-2 pb-2 pt-1 text-brandBlack2 text-sm 2xl:text-fifteen w-full xl:w-auto">
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 2.66626H4.33333M16 2.66626H7.66667M1 8.49959H11M16 8.49959H14.3333M1 14.3329H2.66667M16 14.3329H6" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M5.99919 4.33333C6.91966 4.33333 7.66585 3.58714 7.66585 2.66667C7.66585 1.74619 6.91966 1 5.99919 1C5.07871 1 4.33252 1.74619 4.33252 2.66667C4.33252 3.58714 5.07871 4.33333 5.99919 4.33333Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M12.6679 10.1671C13.5884 10.1671 14.3346 9.42088 14.3346 8.50041C14.3346 7.57993 13.5884 6.83374 12.6679 6.83374C11.7474 6.83374 11.0012 7.57993 11.0012 8.50041C11.0012 9.42088 11.7474 10.1671 12.6679 10.1671Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M4.33293 15.9999C5.2534 15.9999 5.99959 15.2537 5.99959 14.3332C5.99959 13.4128 5.2534 12.6666 4.33293 12.6666C3.41245 12.6666 2.66626 13.4128 2.66626 14.3332C2.66626 15.2537 3.41245 15.9999 4.33293 15.9999Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <p class="pt-1 whitespace-nowrap">All filters</p>
+                            </button>
+                            <button type="button" class="flex flex-row items-center whitespace-nowrap gap-4 border border-brandBlack4 rounded-five py-2 px-4 bg-brandBlue text-white text-sm 2xl:text-fifteen w-full xl:w-auto">
+                                <p>Save Search</p>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex flex-row justify-between">
-                    <h2 class="font-biotifMedium">433 results</h2>
-                    <div class="flex flex-row gap-4">
-                        <h3>Sort by:</h3>
+                <div class="flex flex-col-reverse sm:flex-row gap-10 sm:gap-4 justify-between text-sm sm:text-base">
+                    <h2 class="font-biotifMedium">3 of 3000 properties</h2>
+                    <div class="flex flex-row gap-4 items-center self-end">
+                        <h3 class="whitespace-nowrap">Sort by:</h3>
                         <button type="button" class="flex flex-row items-center text-brandBlue gap-4">
-                            <p>Just For You</p>
+                            <p class="whitespace-nowrap">Just For You</p>
                             <svg width="11" height="5" viewBox="0 0 11 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4.59049 4.856C4.63636 4.90041 4.69774 4.93672 4.76935 4.96181C4.84095 4.98689 4.92063 5 5.00152 5C5.08241 5 5.16209 4.98689 5.23369 4.96181C5.3053 4.93672 5.36668 4.90041 5.41255 4.856L9.9129 0.522964C9.965 0.472987 9.99554 0.414449 10.0012 0.353711C10.0069 0.292973 9.98752 0.232358 9.94515 0.178452C9.90278 0.124546 9.83906 0.0794107 9.76091 0.0479494C9.68276 0.0164882 9.59317 -9.54414e-05 9.50187 4.13189e-07H0.501167C0.410082 0.000251199 0.320822 0.0170481 0.242987 0.0485847C0.165152 0.0801213 0.101687 0.125204 0.0594169 0.178986C0.0171465 0.232767 -0.00232967 0.293212 0.00308273 0.35382C0.00849514 0.414428 0.0385914 0.472905 0.0901349 0.522964L4.59049 4.856Z" fill="#6C757D"/>
                             </svg>                                
@@ -89,11 +102,11 @@
                     </div>
                 </div>
             </div>
-            <main class="flex flex-row gap-6 w-full pt-16 ">
-                <div class=" w-1/3 h-auto">
-                    <main class="bg-white shadow-lg h-auto pb-2">
+            <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full pt-8 sm:pt-16">
+                <div class="col-span-1 mx-auto h-auto">
+                    <main class="bg-white shadow-lg h-auto pb-2 relative">
                         <div class="block h-56 w-full bg-[url('./../../assets/images/houses/couch-stephen-leonardi.png')] bg-cover relative" >
-                            <div  class="absolute top-5 text-thirteen left-2 z-30">
+                            <div  class="absolute top-5 text-thirteen left-2 z-20">
                                 <button type="button" class="text-white font-biotifRegular bg-brandGreen1 rounded-lg px-2 py-1">
                                     <p>New Listing</p>
                                 </button>
@@ -135,7 +148,7 @@
                         </div>
                     </main>
                 </div>
-                <div class=" w-1/3 h-auto">
+                <div class="col-span-1 mx-auto h-auto">
                     <main class="bg-white shadow-lg h-auto pb-2">
                         <div class="block h-56 w-full bg-[url('./../../assets/images/houses/couch-stephen-leonardi.png')] bg-cover"></div>
                         <div class="p-5 space-y-4 font-biotifBook text-sm">
@@ -158,7 +171,7 @@
                         </div>
                     </main>
                 </div>
-                <div class=" w-1/3 h-auto">
+                <div class="col-span-1 mx-auto h-auto">
                     <main class="bg-white shadow-lg h-auto pb-2">
                         <div class="block h-56 w-full bg-[url('./../../assets/images/houses/couch-stephen-leonardi.png')] bg-cover"></div>
                         <div class="p-5 space-y-4 font-biotifBook text-sm">
@@ -202,7 +215,8 @@
                 </div>
             </div>
         </main>
-        <button type="button" class="absolute rounded-five flex flex-row items-center justify-center bg-brandWhite shadow-md p-tenPixel top-fiftyPercent left-88 w-8 h-16 -translate-y-fiftyPercent">
+        <button type="button" class="absolute rounded-five flex flex-row items-center justify-center bg-brandWhite shadow-md p-tenPixel top-fiftyPercent left-4 xl:left-88 w-8 h-16 -translate-y-fiftyPercent">
+            <p class="hidden">Arrow</p>
             <svg width="9" height="14" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.845455 0.682739L0 1.66169L4.33636 6.68274L0 11.7038L0.845455 12.6827L6 6.68274L0.845455 0.682739Z" fill="#343A40"/>
             </svg>
@@ -310,5 +324,6 @@
     </footer>
     <script src="./../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./../assets/js/nav.js"></script>
+    <script src="./../assets/js/dropdown.js"></script>
 </body>
 </html>

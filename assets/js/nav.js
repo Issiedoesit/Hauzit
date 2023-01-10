@@ -1,6 +1,6 @@
 $('#hamburger').on('click', function(){
     $('#navItems').toggleClass('-translate-x-hundredPercent')
-    $('#upper_ham').toggleClass('translate-x-2')
+    $('#upper_ham').toggleClass('ml-2')
 })
 
 

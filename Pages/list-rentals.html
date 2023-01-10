@@ -12,7 +12,7 @@
 <body class="text-brandBlack1 font-biotifRegular">
     <!-- Main Content goes here -->
     <header class="shadow-md">
-        <nav class="items-center justify-between h-18 py-3 flex flex-auto w-full relative z-10 pl-5 xl:pl-20 px-5 sm:px-10">
+        <nav class="items-center justify-between h-18 py-3 flex flex-auto w-full relative z-70 pl-5 xl:pl-20 px-5 sm:px-10">
              <a href="./../index.html" class="hover:scale-90 transition-transform duration-500 ease-in-out pr-10"> 
                  <p class="hidden">Hauzit Logo</p>       
                  <img class="w-auto" src="./../../assets/images/logo.svg" alt="Hauzit Logo">
@@ -31,10 +31,10 @@
                      <a href="#" class="border-2 border-gray-400 rounded-five px-2 py-2 hover:scale-90 transition-transform duration-500 ease-in-out whitespace-nowrap">Sign in or Log in</a>
                  </span>
              </div>
-             <button type="button" id="hamburger" class="hamburger space-y-1 flex-col gap-1 block lg:hidden">
+<button type="button" id="hamburger" class="hamburger space-y-1 flex-col gap-1 block lg:hidden group ease-in-out">
                  <p class="hidden">Menu</p>
-                 <div id="upper_ham" class="h-0.5 w-4 rounded-ten bg-brandBlack1 transition-transform duration-500 ease-in-out"></div>
-                 <div class="h-0.5 w-6 rounded-ten bg-brandBlack1"></div>
+                 <div id="upper_ham" class="h-3px w-6 rounded-ten bg-brandBlack1 ml-2 transition-all duration-500 ease-in-out group-hover:bg-brandBlue"></div>
+                 <div class="h-3px w-8 rounded-ten bg-brandBlack1"></div>
              </button>
         </nav>
      </header>
@@ -125,32 +125,75 @@
             </div>
         </div>
     </section>
-    <section class="w-full p-10 bg-brandWhite2">
+    <section class="w-full p-10 bg-brandWhite2 space-y-10">
         <h1 class="font-biotifMedium text-2xl text-brandBlack1 text-center">Post a listing in 3 easy steps</h1>
-        <div class="flex flex-row py-10">
-            <div class="w-1/3 flex flex-col gap-10 items-center">
-                <div class="bg-brandGreen h-254 w-380"></div>
-                <p class="text-center w-44 font-biotifMedium">
-                    1. Add property details 
-                    and images
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="col-span-1 flex flex-col gap-4 px-5 pt-6 pb-8 text-center items-center bg-white shadow-md mx-auto">
+                <svg width="100" height="79" viewBox="0 0 100 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M90.783 0.0514526H0.0385742V58.1682H90.783V0.0514526Z" fill="#E6E6E6"/>
+                    <path d="M88.1886 7.34076H2.63379V54.7301H88.1886V7.34076Z" fill="white"/>
+                    <path d="M90.7445 0H0V3.85516H90.7445V0Z" fill="#00B0FF"/>
+                    <path d="M2.86491 2.68546C3.25954 2.68546 3.57944 2.36555 3.57944 1.97093C3.57944 1.57631 3.25954 1.25641 2.86491 1.25641C2.47029 1.25641 2.15039 1.57631 2.15039 1.97093C2.15039 2.36555 2.47029 2.68546 2.86491 2.68546Z" fill="white"/>
+                    <path d="M5.57683 2.68546C5.97145 2.68546 6.29135 2.36555 6.29135 1.97093C6.29135 1.57631 5.97145 1.25641 5.57683 1.25641C5.18221 1.25641 4.8623 1.57631 4.8623 1.97093C4.8623 2.36555 5.18221 2.68546 5.57683 2.68546Z" fill="white"/>
+                    <path d="M8.28923 2.68546C8.68385 2.68546 9.00375 2.36555 9.00375 1.97093C9.00375 1.57631 8.68385 1.25641 8.28923 1.25641C7.89461 1.25641 7.57471 1.57631 7.57471 1.97093C7.57471 2.36555 7.89461 2.68546 8.28923 2.68546Z" fill="white"/>
+                    <path d="M32.3908 12.2578H10.4072V49.813H32.3908V12.2578Z" fill="#E6E6E6"/>
+                    <path d="M54.5052 12.2578H36.1855V22.5953H54.5052V12.2578Z" fill="#00B0FF"/>
+                    <path d="M54.5052 25.4741H36.1855V36.5967H54.5052V25.4741Z" fill="#E6E6E6"/>
+                    <path d="M54.5052 39.4755H36.1855V49.813H54.5052V39.4755Z" fill="#E6E6E6"/>
+                    <path d="M80.4147 12.2578H58.4312V28.6241H80.4147V12.2578Z" fill="#E6E6E6"/>
+                    <path d="M80.4147 33.4467H58.4312V49.813H80.4147V33.4467Z" fill="#E6E6E6"/>
+                </svg>
+                <h3 class="text-lg font-biotifSemiBold">Content-rich listings</h3>
+                <p class="font-biotifBook">
+                    Attract renters with amenities, 
+                    promotional concessions and rich 
+                    media like tours in your listing.
                 </p>
             </div>
-            <div class="w-1/3 flex flex-col gap-10 items-center">
-                <div class="bg-brandGreen h-254 w-380"></div>
-                <p class="text-center w-44 font-biotifMedium">
-                    2. Set your annual rent 
-                    price
+            <div class="col-span-1 flex flex-col gap-4 px-5 pt-6 pb-8 text-center items-center bg-white shadow-md mx-auto">
+                <svg width="100" height="79" viewBox="0 0 100 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M90.783 0.0514526H0.0385742V58.1682H90.783V0.0514526Z" fill="#E6E6E6"/>
+                    <path d="M88.1886 7.34076H2.63379V54.7301H88.1886V7.34076Z" fill="white"/>
+                    <path d="M90.7445 0H0V3.85516H90.7445V0Z" fill="#00B0FF"/>
+                    <path d="M2.86491 2.68546C3.25954 2.68546 3.57944 2.36555 3.57944 1.97093C3.57944 1.57631 3.25954 1.25641 2.86491 1.25641C2.47029 1.25641 2.15039 1.57631 2.15039 1.97093C2.15039 2.36555 2.47029 2.68546 2.86491 2.68546Z" fill="white"/>
+                    <path d="M5.57683 2.68546C5.97145 2.68546 6.29135 2.36555 6.29135 1.97093C6.29135 1.57631 5.97145 1.25641 5.57683 1.25641C5.18221 1.25641 4.8623 1.57631 4.8623 1.97093C4.8623 2.36555 5.18221 2.68546 5.57683 2.68546Z" fill="white"/>
+                    <path d="M8.28923 2.68546C8.68385 2.68546 9.00375 2.36555 9.00375 1.97093C9.00375 1.57631 8.68385 1.25641 8.28923 1.25641C7.89461 1.25641 7.57471 1.57631 7.57471 1.97093C7.57471 2.36555 7.89461 2.68546 8.28923 2.68546Z" fill="white"/>
+                    <path d="M32.3908 12.2578H10.4072V49.813H32.3908V12.2578Z" fill="#E6E6E6"/>
+                    <path d="M54.5052 12.2578H36.1855V22.5953H54.5052V12.2578Z" fill="#00B0FF"/>
+                    <path d="M54.5052 25.4741H36.1855V36.5967H54.5052V25.4741Z" fill="#E6E6E6"/>
+                    <path d="M54.5052 39.4755H36.1855V49.813H54.5052V39.4755Z" fill="#E6E6E6"/>
+                    <path d="M80.4147 12.2578H58.4312V28.6241H80.4147V12.2578Z" fill="#E6E6E6"/>
+                    <path d="M80.4147 33.4467H58.4312V49.813H80.4147V33.4467Z" fill="#E6E6E6"/>
+                </svg>
+                <h3 class="text-lg font-biotifSemiBold">Dedicated team</h3>
+                <p class="font-biotifBook">
+                    Save time and stress from start 
+                    to finish with a dedicated Hauzit 
+                    support team
                 </p>
             </div>
-            <div class="w-1/3 flex flex-col gap-10 items-center">
-                <div class="bg-brandGreen h-254 w-380"></div>
-                <p class="text-center w-44 font-biotifMedium">
-                    3. Publish and share with 
-                    renters in your area
+            <div class="col-span-1 flex flex-col gap-4 px-5 pt-6 pb-8 text-center items-center bg-white shadow-md mx-auto">
+                <svg width="100" height="79" viewBox="0 0 100 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M90.783 0.0514526H0.0385742V58.1682H90.783V0.0514526Z" fill="#E6E6E6"/>
+                    <path d="M88.1886 7.34076H2.63379V54.7301H88.1886V7.34076Z" fill="white"/>
+                    <path d="M90.7445 0H0V3.85516H90.7445V0Z" fill="#00B0FF"/>
+                    <path d="M2.86491 2.68546C3.25954 2.68546 3.57944 2.36555 3.57944 1.97093C3.57944 1.57631 3.25954 1.25641 2.86491 1.25641C2.47029 1.25641 2.15039 1.57631 2.15039 1.97093C2.15039 2.36555 2.47029 2.68546 2.86491 2.68546Z" fill="white"/>
+                    <path d="M5.57683 2.68546C5.97145 2.68546 6.29135 2.36555 6.29135 1.97093C6.29135 1.57631 5.97145 1.25641 5.57683 1.25641C5.18221 1.25641 4.8623 1.57631 4.8623 1.97093C4.8623 2.36555 5.18221 2.68546 5.57683 2.68546Z" fill="white"/>
+                    <path d="M8.28923 2.68546C8.68385 2.68546 9.00375 2.36555 9.00375 1.97093C9.00375 1.57631 8.68385 1.25641 8.28923 1.25641C7.89461 1.25641 7.57471 1.57631 7.57471 1.97093C7.57471 2.36555 7.89461 2.68546 8.28923 2.68546Z" fill="white"/>
+                    <path d="M32.3908 12.2578H10.4072V49.813H32.3908V12.2578Z" fill="#E6E6E6"/>
+                    <path d="M54.5052 12.2578H36.1855V22.5953H54.5052V12.2578Z" fill="#00B0FF"/>
+                    <path d="M54.5052 25.4741H36.1855V36.5967H54.5052V25.4741Z" fill="#E6E6E6"/>
+                    <path d="M54.5052 39.4755H36.1855V49.813H54.5052V39.4755Z" fill="#E6E6E6"/>
+                    <path d="M80.4147 12.2578H58.4312V28.6241H80.4147V12.2578Z" fill="#E6E6E6"/>
+                    <path d="M80.4147 33.4467H58.4312V49.813H80.4147V33.4467Z" fill="#E6E6E6"/>
+                </svg>
+                <h3 class="text-lg font-biotifSemiBold">Exposure</h3>
+                <p class="font-biotifBook">
+                    Get increases exposure on your listing 
+                    from renters searching in your area.
                 </p>
             </div>
         </div>
-
     </section>
     <footer class="bg-brandGrey w-full text-center text-white font-biotifBook">
         <section class="border-b space-y-3 border-brandBlack6 py-12 px-10">

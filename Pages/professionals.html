@@ -12,7 +12,7 @@
 <body class="text-brandBlack1">
     <!-- Main Content goes here -->
     <header class="shadow-md">
-        <nav class="items-center justify-between h-18 py-3 flex flex-auto w-full relative z-10 pl-5 xl:pl-20 px-5 sm:px-10">
+        <nav class="items-center justify-between h-18 py-3 flex flex-auto w-full relative z-70 pl-5 xl:pl-20 px-5 sm:px-10">
              <a href="./../index.html" class="hover:scale-90 transition-transform duration-500 ease-in-out pr-10"> 
                  <p class="hidden">Hauzit Logo</p>       
                  <img class="w-auto" src="./../../assets/images/logo.svg" alt="Hauzit Logo">
@@ -31,30 +31,38 @@
                      <a href="#" class="border-2 border-gray-400 rounded-five px-2 py-2 hover:scale-90 transition-transform duration-500 ease-in-out whitespace-nowrap">Sign in or Log in</a>
                  </span>
              </div>
-             <button type="button" id="hamburger" class="hamburger space-y-1 flex-col gap-1 block lg:hidden">
+<button type="button" id="hamburger" class="hamburger space-y-1 flex-col gap-1 block lg:hidden group ease-in-out">
                  <p class="hidden">Menu</p>
-                 <div id="upper_ham" class="h-0.5 w-4 rounded-ten bg-brandBlack1 transition-transform duration-500 ease-in-out"></div>
-                 <div class="h-0.5 w-6 rounded-ten bg-brandBlack1"></div>
+                 <div id="upper_ham" class="h-3px w-6 rounded-ten bg-brandBlack1 ml-2 transition-all duration-500 ease-in-out group-hover:bg-brandBlue"></div>
+                 <div class="h-3px w-8 rounded-ten bg-brandBlack1"></div>
              </button>
         </nav>
      </header>
     <section class="h-auto  bg-brandGreen  w-full relative">
-        <main class="bg-white pt-11 pb-7 px-12">
-            <div class="flex flex-col gap-5 w-full justify-between font-biotifBook">
-                <h1 class="font-biotifMedium text-3xl">Find a Real Estate Professional</h1>
-                <div class="flex flex-row gap-10">
-                    <a href="#" class="font-biotifMedium border-b-2 border-brandBlue">Premier Agents</a>
-                    <a href="#" class="font-biotifMedium">Home Improvement</a>
-                    <a href="#" class="font-biotifMedium">Property Managers</a>
-                    <a href="#" class="font-biotifMedium">Builders</a>
-                    <a href="#" class="font-biotifMedium">Photographers</a>
-                    <a href="#" class="font-biotifMedium">Others</a>
+        <main class="bg-white pt-11 pb-7 px-5 lg:px-12">
+            <div class="flex flex-col sm:flex-row lg:flex-col gap-5 w-full justify-between font-biotifBook">
+                <h1 class="font-biotifMedium text-xl sm:text-2xl md:text-3xl">Find a Real Estate Professional</h1>
+               <div class="self-end lg:self-auto">
+                <button id="filters_btn" type="button" class="relative w-32 rounded-five sm:w-40 text-white flex lg:hidden flex-row items-center gap-5 justify-between bg-brandBlue px-2 sm:px-5 py-2 h-fit">
+                    <p class="text-sm sm:text-base whitespace-nowrap">Category</p>
+                    <svg id="filters_arrow" class="transition-transform duration-500 ease-in-out" width="11" height="5" viewBox="0 0 11 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.59049 4.856C4.63636 4.90041 4.69774 4.93672 4.76935 4.96181C4.84095 4.98689 4.92063 5 5.00152 5C5.08241 5 5.16209 4.98689 5.23369 4.96181C5.3053 4.93672 5.36668 4.90041 5.41255 4.856L9.9129 0.522964C9.965 0.472987 9.99554 0.414449 10.0012 0.353711C10.0069 0.292973 9.98752 0.232358 9.94515 0.178452C9.90278 0.124546 9.83906 0.0794107 9.76091 0.0479494C9.68276 0.0164882 9.59317 -9.54414e-05 9.50187 4.13189e-07H0.501167C0.410082 0.000251199 0.320822 0.0170481 0.242987 0.0485847C0.165152 0.0801213 0.101687 0.125204 0.0594169 0.178986C0.0171465 0.232767 -0.00232967 0.293212 0.00308273 0.35382C0.00849514 0.414428 0.0385914 0.472905 0.0901349 0.522964L4.59049 4.856Z" fill="#FFFFFF"/>
+                    </svg>  
+                </button>
+                <div id="filters_wrap" class="flex flex-col transition-all duration-700 ease-in-out max-h-0 overflow-y-hidden lg:max-h-fit lg:overflow-y-auto lg:h-fit  py-0 gap-6 lg:flex lg:flex-row lg:space-y-0 lg:h-fit lg:gap-10 w-32 sm:w-40 lg:w-auto absolute right-5 rounded-five lg:rounded-0 shadow-md lg:shadow-none lg:bg-transparent z-30 bg-white px-2 sm:px-5 lg:py-0 lg:px-0 lg:static">
+                    <a href="#" class="font-biotifMedium whitespace-nowrap text-xs sm:text-base w-fit border-b-2 border-brandBlue">Premier Agents</a>
+                    <a href="#" class="font-biotifMedium whitespace-nowrap text-xs sm:text-base w-fit">Home Improvement</a>
+                    <a href="#" class="font-biotifMedium whitespace-nowrap text-xs sm:text-base w-fit">Property Managers</a>
+                    <a href="#" class="font-biotifMedium whitespace-nowrap text-xs sm:text-base w-fit">Builders</a>
+                    <a href="#" class="font-biotifMedium whitespace-nowrap text-xs sm:text-base w-fit">Photographers</a>
+                    <a href="#" class="font-biotifMedium whitespace-nowrap text-xs sm:text-base w-fit">Others</a>
                 </div>
+               </div>
             </div>
     </section>
 
     <section class="w-full bg-brandWhite2 px-10 py-10">
-        <div class="flex flex-row gap-4 pb-8">
+        <div class="flex flex-row gap-4 pb-8 overflow-x-auto">
             <div class="flex flex-col gap-2">
                 <p class="text-sm font-biotifBold text-brandBlack1">LOCATION</p>
                 <label for="search_city" class="relative">
@@ -212,5 +220,6 @@
     </footer>
     <script src="./../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./../assets/js/nav.js"></script>
+    <script src="./../assets/js/dropdown.js"></script>
 </body>
 </html>

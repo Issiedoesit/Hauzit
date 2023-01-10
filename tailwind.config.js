@@ -17,6 +17,7 @@ module.exports = {
         brandBlue6: "#CAF0F8",
         brandBrown: "#7F5539",
         brandWhite2: "#F2F2F2",
+        brandWhite5: "#F7F7F7",
         brandBlack1: "#343A40",
         brandBlack2: "#495057",
         brandBlack3: "#6C757D",
@@ -91,6 +92,7 @@ module.exports = {
         '350': '21.875rem',
       },
       spacing:{
+        '3px': '0.1875rem',
         'sixPixel': "0.375rem",
         '18': '4.5rem',
         'top18.5': '74px',
