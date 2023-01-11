@@ -11,6 +11,7 @@ module.exports = {
         brandGrey: "#212529",
         brandGreen: "#E0F7EF",
         brandGreen1: "#358F80",
+        brandGreen2: "#036666",
         brandWhite: "#FFFFFF",
         brandBlue: "#0096C7",
         brandBlue2: "#0077B6",

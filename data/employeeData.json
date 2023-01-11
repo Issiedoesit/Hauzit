@@ -1,0 +1,68 @@
+[
+    {
+        "id": "actel_elemokore",
+        "name":"Actel Elemokore",
+        "img":"./../assets/images/employees/laptop-man-standing.png",
+        "role":"Founder & CEO",
+        "qualifications":[
+            {
+                "qualification":"Founder and CEO"
+            },
+            {
+                "qualification":"Mobile and Internet Industry"
+            },
+            {
+                "qualification":"Entrepreneur"
+            },
+            {
+                "qualification":"Operational Management"
+            }
+        ],
+        "about":"Actel Elemokore (age 25) is our founder and has served as Chief Executive Officer since November 2022.",
+        "boards":[
+            {
+                "board":"Water Board"
+            },
+            {
+                "board":"Light Board"
+            },
+            {
+                "board":"Waste Board"
+            }
+        ],
+        "education": "Education: B.S. in Civil Engineering, University of Port Harcourt"
+    },
+    {
+        "id": "daniel_ocon",
+        "name":"Daniel Ocon",
+        "img":"./../assets/images/employees/buyers-guide-img1.png",
+        "role":"CFO",
+        "qualifications":[
+            {
+                "qualification":"CFO"
+            },
+            {
+                "qualification":"Mobile and Internet Industry"
+            },
+            {
+                "qualification":"Entrepreneur"
+            },
+            {
+                "qualification":"Operational Management"
+            }
+        ],
+        "about":"Daniel Ocon (age 25) is our founder and has served as Chief Executive Officer since November 2022.",
+        "boards":[
+            {
+                "board":"Water Board"
+            },
+            {
+                "board":"Light Board"
+            },
+            {
+                "board":"Waste Board"
+            }
+        ],
+        "education": "Education: B.S. in Civil Engineering, University of Port Harcourt"
+    }
+]
