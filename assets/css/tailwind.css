@@ -7,3 +7,17 @@ body > *{
     max-width: 1550px;
     margin: 0px auto;
 }
+
+.skeleton-template{
+    animation: skeleton-loader 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loader {
+    0%{
+        background: rgb(155, 153, 153);
+    }
+    100%{
+        background: rgb(218, 218, 221);
+    }
+}
+
