@@ -1,0 +1,26 @@
+[
+    {
+        "id":"help1",
+        "img":"./../assets/images/help/helpImg1.png",
+        "head":"Getting Started",
+        "text":"The basic things you need to know to start buying, selling & renting faster",
+        "linkText":"Browse articles",
+        "link":"#"
+    },
+    {
+        "id":"help2",
+        "img":"./../assets/images/help/helpImg2.png",
+        "head":"Knowledge Base",
+        "text":"Questions & answers on everything Hauzit",
+        "linkText":"Get started",
+        "link":"#"
+    },
+    {
+        "id":"help3",
+        "img":"./../assets/images/help/helpImg3.png",
+        "head":"Video Tutorials",
+        "text":"Watch video guides on how to get started on Hauzit",
+        "linkText":"Watch tutorials",
+        "link":"#"
+    }
+]

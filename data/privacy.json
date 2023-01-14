@@ -1,0 +1,67 @@
+[
+    {
+        "id":"policy1",
+        "heading": "Introduction",
+        "paragraphs":[
+            {
+                "paragraph":"We offer a wide range of services that focus on all stages of: renting, buying, selling, financing, and home improvement. We know that everyone’s home  journey is different, and that deciding on the right place to call home is an intimate, personal experience. Along with a wealth of information about properties, neighborhoods, market conditions, local real estate professionals, and financing options, we also use the information you give us to provide our services and help you find your next home."
+            },
+            {
+                "paragraph":"We carefully evaluate how we use data to make sure that we’re using your information to provide value for you. On this page, we aim to explain everything you need to know about your privacy at Hauzit. If you have any questions that we haven’t answered here, you can always contact us at href='mailto:privacy@zillow.com' class='underline'>contact@Hauzit.com.</a>"
+            }
+        ]
+    },
+    {
+        "id":"policy2",
+        "heading": "Information we collect as you use our services",
+        "paragraphs":[
+            {
+                "paragraph":"When you use our services, we collect a variety of information from and about you and your devices. Some of this information identifies you directly (like an email address) while some of it is associated with you through your account, profile, or device (like the properties you choose to save or your location data)."
+            },
+            {
+                "paragraph":"The kind of data we collect about you depends on how you use Hauzit. If you only use our services to browse for properties, we’ll have less information about you than if we help you <a href='https://www.zillow.com/sell/'>sell your property</a>, <a href='https://www.zillow.com/home-loans/'>get a mortgage</a>,, or if you use any of our other transaction services. Even if you don’t have an account with us, we may still collect some data about you, like your email address and phone number if you choose to contact a real estate agent through our platform, or your IP address and other device information when you browse our sites or use our apps."
+            }
+        ],
+        "subSections":[
+            {
+                "sub":{
+                    "id":"activity_info",
+                    "heading":"Activity Information",
+                    "paragraphs":[
+                        {
+                            "paragraph":"We collect information about how you use Hauzit. This includes things like your property search history, properties you view, purchase activity, what you’ve clicked on and other uses of our features, and the amount of time you spend looking at different parts of our websites. When you call or text Hauzit or a real estate professional using our platform, we collect data about your call or text, including the date and time of the call or text, your phone number, and the content of the call or text."
+                        }
+                    ]
+                }
+            },
+            {
+                "sub":{
+                    "id":"device_info",
+                    "heading":"Device Information",
+                    "paragraphs":[
+                        {
+                            "paragraph":"Like other websites and apps, we collect data about the browsers and devices you use to access Hauzit. The data we collect includes browser or device model and settings, operating system, unique identifiers, and the version of the app you’re using. We also collect data about how your browsers and devices interact with our services, including IP address, crash reports, system activity, and the date, time, and the URL of the site you visited before Hauzit."
+                        },
+                        {
+                            "paragraph":"You can control our collection of certain data, such as your mobile device model or the language your mobile device uses, by adjusting the privacy and security settings on your mobile device."
+                        }
+                    ]
+                }
+            },
+            {
+                "sub":{
+                    "id":"location_info",
+                    "heading":"Location Information",
+                    "paragraphs":[
+                        {
+                            "paragraph":"If you enable location services on your mobile device, Hauzit collects the location of your device. We use that information to provide you with location-based information and ads, like properties and real estate professionals in your area, and to offer location-based services, like allowing you claim your property on Hauzit. If you don’t want to use these features, you can turn off location services on your device."
+                        },
+                        {
+                            "paragraph":"We also collect location information for similar purposes from your browser if you enable it. You can disable access through your browser settings."
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]

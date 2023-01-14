@@ -3,7 +3,9 @@ let jsonPath = '/data/employeeData.json'
 
 $.getJSON(jsonPath, function(data) {
     // console.log(data)
-    employeeList(data)
+    setTimeout(() => {
+        employeeList(data) 
+    }, 2000);
     loadDataPage(data);
 })
 
@@ -45,6 +47,7 @@ function fetchEmployee(empName, data){
             $('.employee-name').html(currentEmployee.name)
             $('.employee-role').html(currentEmployee.role)
             $('.employee-img').prop('src', currentEmployee.img)
+            $('.employee-img').prop('alt', currentEmployee.name)
             $('#qualificationsList').html(getListItems(currentEmployee.qualifications, 'qualification'))
             $('#boardsList').html(getListItems(currentEmployee.boards, 'board'))
             $('#education').html(currentEmployee.education)

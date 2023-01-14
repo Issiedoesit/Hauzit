@@ -1,0 +1,131 @@
+[
+    {
+        "id":"building_amenities",
+        "name":"BUILDING AMENITIES",
+        "amenities":[
+            {
+                "id":"sports_court",
+                "amenity":"Sports court"
+            },
+            {
+                "id":"gated_entry",
+                "amenity":"Gated Entry"
+            },
+            {
+                "id":"balcony_or_patio",
+                "amenity":"Balcony/patio"
+            },
+            {
+                "id":"fitness_center",
+                "amenity":"Fitness center"
+            },
+            {
+                "id":"good_road_access",
+                "amenity":"Good road access"
+            },
+            {
+                "id":"pool",
+                "amenity":"Pool"
+            },
+            {
+                "id":"carport",
+                "amenity":"Carport"
+            },
+            {
+                "id":"controlled_access",
+                "amenity":"Controlled access"
+            },
+            {
+                "id":"basement",
+                "amenity":"Basement"
+            },
+            {
+                "id":"guest_house",
+                "amenity":"Guest house"
+            },
+            {
+                "id":"decor_mouldings",
+                "amenity":"Decorative mouldings"
+            },
+            {
+                "id":"solar",
+                "amenity":"Solar"
+            }
+        ]
+
+    },
+    {
+        "id":"interior_amenities",
+        "name":"INTERIOR AMENITIES",
+        "amenities":[
+            {
+                "id":"high_ceilings",
+                "amenity":"High ceilings"
+            },
+            {
+                "id":"office_or_library",
+                "amenity":"Office/library"
+            },
+            {
+                "id":"walk_in_closet",
+                "amenity":"Walk-in closet"
+            },
+            {
+                "id":"smart_home_equipments",
+                "amenity":"Smart home equipments"
+            },
+            {
+                "id":"security_system",
+                "amenity":"Security system"
+            },
+            {
+                "id":"ceiling_fans",
+                "amenity":"Ceiling fans"
+            },
+            {
+                "id":"family_room",
+                "amenity":"Family room"
+            },
+            {
+                "id":"laundry_room",
+                "amenity":"Laundry room"
+            },
+            {
+                "id":"central_cooling",
+                "amenity":"Central cooling"
+            }
+        ]
+
+    },
+    {
+        "id":"appliances",
+        "name":"APPLIANCES",
+        "amenities":[
+            {
+                "id":"dishwasher",
+                "amenity":"Dishwasher"
+            },
+            {
+                "id":"dryer",
+                "amenity":"Dryer"
+            },
+            {
+                "id":"refrigerator",
+                "amenity":"Refrigerator"
+            },
+            {
+                "id":"oven",
+                "amenity":"Oven"
+            },
+            {
+                "id":"microwave",
+                "amenity":"Microwave"
+            },
+            {
+                "id":"washer",
+                "amenity":"Washer"
+            }
+        ]
+
+    }
+]
