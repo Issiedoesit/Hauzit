@@ -22,3 +22,47 @@ body > *{
 }
 
 
+input[type=range]::-webkit-slider-runnable-track {
+    cursor: pointer;
+    background: #0077B6;
+    border-radius: 5px;
+    height: 6px;
+  }
+  
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #367ebd;
+  }
+  
+  input[type=range]::-moz-range-track {
+    cursor: pointer;
+    background: #0077B6;
+    border-radius: 5px;
+    height: 6px;
+  }
+  
+  input[type=range]::-ms-track {
+    cursor: pointer;
+    background: #0077B6;
+    border-radius: 5px;
+    height: 6px;
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+      transform: translateY(50%);
+    background: #ffffff;
+    margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  }
+  
+  /* All the same stuff for Firefox */
+  input[type=range]::-moz-range-thumb {
+    transform: translateY(50%);
+    background: #ffffff;
+    cursor: pointer;
+  }
+  
+  /* All the same stuff for IE */
+  input[type=range]::-ms-thumb {
+    transform: translateY(50%);
+    background: #ffffff;
+    cursor: pointer;
+  }

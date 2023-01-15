@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buy 2</title>
+    <title>Hauzit | Buy</title>
     <link rel="shortcut icon" href="./../assets/images/logo-icon-black.png" type="image/x-icon">
     <link rel="stylesheet" href="./../assets/css/font.css">
     <link rel="stylesheet" href="./../assets/css/main.css">
 </head>
 <body class="text-brandBlack1 font-biotifRegular">
     <!-- Main Content goes here -->
-     <header class="shadow-md">
+     <header class="shadow-md border-b-0.5 border-b-brandBlack5">
        <nav class="items-center justify-between h-18 py-3 flex flex-auto w-full relative z-10 pl-5 xl:pl-20 px-5 sm:px-10">
             <a href="./../index.html" class="hover:scale-90 transition-transform duration-500 ease-in-out pr-10"> 
                 <p class="hidden">Hauzit Logo</p>       
@@ -40,8 +40,8 @@
     </header>
 
     <!-- hero section -->
-    <section class="h-auto  bg-brandWhite w-full px-20">
-        <div class="flex flex-row justify-between w-full py-4 text-fifteen">
+    <section class="h-auto bg-brandWhite w-full px-5 sm:px-10 md:px-20">
+        <div class="flex flex-col sm:flex-row gap-5 justify-between w-full py-4 text-fifteen">
             <button type="button" class="flex flex-row gap-3 items-center">
                 <img src="./../assets/images/icon/arrow-icon-blue.svg" alt="">
                 <p class="text-brandBlue">Back to Search</p>
@@ -62,20 +62,18 @@
             </div>
         </div>
         <main>
-            <div class="h-550 w-full flex flex-row gap-3">
-                <div class="w-2/3 h-full relative bg-[url('./../../assets/images/houses/stephen-leonardi.jpg')] bg-cover">
+            <div class=" w-full grid grid-cols-2 sm:grid-cols-12 lg:grid-rows-2 gap-3">
+                <div class="col-span-2 sm:col-span-12 lg:col-span-8 h-350 lg:h-auto lg:row-span-2 relative bg-[url('./../../assets/images/houses/stephen-leonardi.jpg')] bg-cover">
                     <div class="absolute bottom-10 left-5 flex flex-row items-center gap-2 p-tenPixel bg-black/60 rounded-five w-fit h-fit text-white">
                         <img src="./../assets/images/icon/street-view.svg" alt="">
                         <h2 class="pt-1">Street View</h2>
                     </div>
                 </div>
-                <div class="h-550 w-1/3 flex flex-col">
-                    <div class="h-1/2 mb-1.5 bg-[url('./../../assets/images/colourful-workspace.png')] bg-cover">
-                    </div>
-                    <div class="h-1/2 relative mt-1.5 bg-[url('./../../assets/images/israel-andrade-YI_9SivVt_s-unsplash.png')] bg-cover">
-                        <div class="absolute bottom-10 right-5 flex flex-row items-center gap-2 p-tenPixel bg-brandWhite rounded-five w-fit h-fit">
-                            <h2>See all photos</h2>
-                        </div>
+                <div class="col-span-2 sm:col-span-6 lg:col-span-4 h-32 sm:h-350 lg:h-64  bg-[url('./../../assets/images/colourful-workspace.png')] bg-cover">
+                </div>
+                <div class="col-span-2 sm:col-span-6 lg:col-span-4 h-32 sm:h-350 lg:h-64 relative bg-[url('./../../assets/images/israel-andrade-YI_9SivVt_s-unsplash.png')] bg-cover">
+                    <div class="absolute bottom-10 right-5 flex flex-row items-center gap-2 p-tenPixel bg-brandWhite rounded-five w-fit h-fit">
+                        <h2 class="text-sm">See all photos</h2>
                     </div>
                 </div>
             </div>
@@ -84,29 +82,29 @@
     </section>
 
     <!-- description section -->
-    <section class="w-full pt-9 px-36 flex flex-row gap-20">
-        <main  class="w-2/3">
+    <section class="w-full pt-9 px-9 md:px-18 lg:px-36 flex flex-col md:flex-row gap-10 md:gap-20">
+        <main  class="text-sm sm:text-base md:w-2/3">
             <div class="w-full py-4">
-                <div class="w-full flex flex-row justify-between text-2xl font-biotifMedium">
+                <div class="w-full flex flex-row gap-5 justify-between text-lg sm:text-2xl font-biotifMedium">
                     <h1>1333 Jones St, Choba</h1>
                     <h1>N5,000,000</h1>
                 </div>
-                <div class="w-full flex flex-row py-3 justify-between">
-                    <h3 class="text-lg">Port Harcourt, Rivers</h3>
-                    <button type="button" class="bg-brandGreen1 py-3 px-5 rounded-five font-biotifMedium text-brandWhite">Find Lender</button>
+                <div class="w-full flex flex-row py-3 gap-5 justify-between">
+                    <h3 class="sm:text-lg">Port Harcourt, Rivers</h3>
+                    <button type="button" class="bg-brandGreen1 py-3 px-5 rounded-five whitespace-nowrap font-biotifMedium text-brandWhite">Find Lender</button>
                 </div>
             </div>
-            <div class="flex flex-row pb-4 border-b border-brandBlack6 gap-20">
+            <div class="flex flex-row pb-4 border-b border-brandBlack6 justify-between sm:gap-20">
                 <div>
-                    <h1 class="text-2xl font-biotifBold">4</h1>
+                    <h1 class="text-lg sm:text-2xl font-biotifBold">4</h1>
                     <p>Beds</p>
                 </div>
                 <div>
-                    <h1 class="text-2xl font-biotifBold">3</h1>
+                    <h1 class="text-lg sm:text-2xl font-biotifBold">3</h1>
                     <p>Baths</p>
                 </div>
                 <div>
-                    <h1 class="text-2xl font-biotifBold">6,134</h1>
+                    <h1 class="text-lg sm:text-2xl font-biotifBold">6,134</h1>
                     <p>Sq Ft</p>
                 </div>
             </div>
@@ -116,33 +114,41 @@
             </div>
             <div class="py-4 space-y-3">
                 <h1 class="font-biotifBold">Overview</h1>
-                <table class="w-full table-fixed font-biotifBook text-base">
-                    <thead class="border-b border-brandBlack6">
-                        <td class=" py-3 text-brandBlack3"><p>Status</p></td>
-                        <td class=" py-3"><p>For Sale</p></td>
-                        <td class=" py-3 text-brandBlack3"><p>Lot Size</p></td>
-                        <td class=" py-3"><p>50 x 50 (1 Plot)</p></td>
-                    </thead>
-                    <tr class="border-b border-brandBlack6">
-                        <td class=" py-3 text-brandBlack3"><p>Type</p></td>
-                        <td class="py-3">
-                            <ul>
-                                <li><p>Single Family</p></li>
-                                <li><p>Duplex</p></li>
-                            </ul>
-                        </td>
-                        <td class=" py-3 text-brandBlack3"><p>Year Built</p></td>
-                        <td class=" py-3"><p>1999</p></td>
-                    </tr>
-                    <tr class="">
-                        <td class=" py-3 text-brandBlack3"><p>Furnishing</p></td>
-                        <td class="py-3">
-                            <p>Unfurnished</p>
-                        </td>
-                        <td class=" py-3 text-brandBlack3"><p>Parking</p></td>
-                        <td class=" py-3"><p>2 Spaces</p></td>
-                    </tr>
-                </table>
+                <div class="font-biotifBook text-sm sm:text-base grid grid-cols-1 sm:grid-cols-2">
+                    <div class="border-b border-brandBlack6 col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-5 py-3 sm:py-5">
+                        <div class="col-span-1 flex flex-row justify-between  w-full sm:grid grid-cols-2">
+                            <p class="text-brandBlack3 col-span-1">Status</p>
+                            <p class="col-span-1 text-left">For Sale</p>
+                        </div>
+                        <div class="col-span-1 flex flex-row justify-between  w-full sm:grid grid-cols-2">
+                            <p class="text-brandBlack3 col-span-1">Lot Size</p>
+                            <p class="col-span-1 text-left">50 x 50 (1 Plot)</p>
+                        </div>
+                    </div>
+                    <div class="border-b border-brandBlack6 col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-5 py-3 sm:py-5">
+                        <div class="col-span-1 flex flex-row justify-between  w-full sm:grid grid-cols-2">
+                            <p class="text-brandBlack3 col-span-1">Type</p>
+                            <div class="col-span-1 text-right sm:text-left">
+                                <p>Single Family</p>
+                                <p>Duplex</p>
+                            </div>
+                        </div>
+                        <div class="col-span-1 flex flex-row justify-between  w-full sm:grid grid-cols-2">
+                            <p class="text-brandBlack3 col-span-1">Year Built</p>
+                            <p class="col-span-1 text-left">1999</p>
+                        </div>
+                    </div>
+                    <div class="border-b border-brandBlack6 col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-5 py-3 sm:py-5">
+                        <div class="col-span-1 flex flex-row justify-between  w-full sm:grid grid-cols-2">
+                            <p class="text-brandBlack3 col-span-1">Furnishing</p>
+                            <p class="col-span-1 text-left">Unfurnished</p>
+                        </div>
+                        <div class="col-span-1 flex flex-row justify-between  w-full sm:grid grid-cols-2">
+                            <p class="text-brandBlack3 col-span-1">Parking</p>
+                            <p class="col-span-1 text-left">2 Spaces</p>
+                        </div>
+                    </div>
+                </div>
                 <p class="py-4 pr-10">
                     Welcome home to this beautifully cared for and updated home that will check all of your 
                     boxes. A large corner lot with a gated drive and yard space for days. Tucked perfectly into a 
@@ -151,7 +157,7 @@
                 </p>
             </div>
         </main>
-        <aside class="h-52 rounded-five w-350">
+        <aside class="h-fit rounded-five w-full max-w-350 mx-auto sm:mx-0 sm:w-350 text-xs sm:text-sm md:text-base">
             <div class="rounded-five w-full flex flex-row">
                 <div class="w-1/2 border-t border-x border-brandBlack6 py-4 rounded-t-five text-center">
                     <label for="schedule_tour" class="text-brandBlue font-biotifBook">
@@ -160,9 +166,9 @@
                     </label>
                 </div>
                 <div class="w-1/2 border-b border-brandBlack6 py-4 rounded-t-five text-center">
-                    <label for="schedule_tour" class="text-brandBlue font-biotifBook">
+                    <label for="contact_agent" class="text-brandBlue font-biotifBook">
                         Contact Agent
-                        <input type="checkbox" name="" id="schedule_tour" class="hidden">
+                        <input type="checkbox" name="" id="contact_agent" class="hidden">
                     </label>
                 </div>
             </div>
@@ -221,7 +227,7 @@
                             <input type="checkbox" name="" id="sat_twelveth_may" class="hidden" checked>
                         </label>
                     </div>
-                    <button type="button" class="absolute rounded-fiftyPercent flex flex-row items-center justify-center bg-brandWhite shadow-md p-tenPixel top-fiftyPercent -right-5 w-9 h-9 -translate-y-fiftyPercent">
+                    <button type="button" class="absolute rounded-fiftyPercent flex flex-row items-center justify-center bg-brandWhite shadow-md p-tenPixel top-fiftyPercent -right-12 sm:-right-5 w-9 h-9 -translate-y-fiftyPercent">
                         <svg width="9" height="14" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.845455 0.682739L0 1.66169L4.33636 6.68274L0 11.7038L0.845455 12.6827L6 6.68274L0.845455 0.682739Z" fill="#343A40"/>
                         </svg>
@@ -250,46 +256,46 @@
     </section>
 
     <!-- map section -->
-    <section class="w-full py-7 px-36 h-auto">
-        <main class="w-2/3 h-fit">
+    <section class="w-full py-7 px-9 md:px-18 lg:px-36 h-auto">
+        <main class="sm:w-2/3 h-fit">
             <!-- map -->
-            <div class="w-5/6 h-280 bg-brandGrey">
+            <div class="sm:w-5/6 h-280 bg-brandGrey">
 
             </div>
         </main>
     </section>
                
     <!-- amenities section  -->
-    <section class="w-full py-7 px-36 h-auto">
-        <main class="w-2/3 h-fit">
+    <section class="w-full py-7 px-9 md:px-18 lg:px-36 h-auto">
+        <main class="md:w-2/3 h-fit">
             <h1 class="font-biotifBold text-xl">Amenities</h1>
-            <div class="flex flex-row w-full py-4 gap-20">
+            <div class="flex flex-row w-full py-4 text-sm sm:text-base gap-5 sm:gap-10 md:gap-20">
                 <div class="w-1/2">
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">Private Compound</p>
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">Decorative Mouldings</p>
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">Family / Recreation Room</p>
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">Pool (Heated)</p>
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">Boys Quarters</p>
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">Carport</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">Private Compound</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">Decorative Mouldings</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">Family / Recreation Room</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">Pool (Heated)</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">Boys Quarters</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">Carport</p>
                 </div>
                 <div class="w-1/2">
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">Columns</p>
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">High Ceilings</p>
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">Office / Library</p>
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">Walk-in Closet</p>
-                    <p class="border-b border-brandBlack6 w-3/4 py-2">Smart Home Equipments</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">Columns</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">High Ceilings</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">Office / Library</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">Walk-in Closet</p>
+                    <p class="border-b border-brandBlack6 sm:w-3/4 py-2">Smart Home Equipments</p>
                 </div>
             </div>
         </main>
     </section>
     
     <!-- agent section -->
-    <section class="w-full py-7 px-36 h-auto">
-        <main class="w-2/3 h-fit">
+    <section class="w-full py-7 px-9 md:px-18 lg:px-36 h-auto">
+        <main class="md:w-2/3 h-fit">
             <h1 class="font-biotifBold text-xl">Listing Agent</h1>
-            <div class="flex flex-row w-full py-5">
-                <div class="w-1/2 flex flex-row gap-4 items-center">
-                    <div class="h-24 w-24 bg-brandBlack6 rounded-fifty">
+            <div class="flex flex-col sm:flex-row w-full gap-5 py-5">
+                <div class="lg:w-1/2 flex flex-col lg:flex-row gap-4 lg:items-center">
+                    <div class="h-16 md:h-24 w-16 md:w-24 bg-brandBlack6 rounded-fifty">
 
                     </div>
                     <div class="space-y-2">
@@ -298,17 +304,17 @@
                         <p class="text-fifteen">Port Harcourt Premier Agent</p>
                     </div>
                 </div>
-                <div class="w-1/2 pl-20 flex flex-col justify-center gap-2">
-                    <p class="text-fifteen">athena.chinda@gmail.com</p>
-                    <p class="text-fifteen">0814 214 4329</p>
+                <div class="sm:w-1/2 sm:pl-20 flex flex-col sm:justify-end lg:justify-center gap-2">
+                    <p class="text-fifteen pl-1 sm:pl-0">athena.chinda@gmail.com</p>
+                    <p class="text-fifteen pl-1 sm:pl-0">0814 214 4329</p>
                 </div>
             </div>
         </main>
     </section>
 
     <!-- safety tips -->
-    <section class="w-full py-4 px-36 h-auto">
-        <main class="w-2/3 h-fit">
+    <section class="w-full py-4 px-9 md:px-18 lg:px-36 h-auto">
+        <main class="sm:w-2/3 h-fit">
             <div class="w-full space-y-3 p-5 bg-brandBlue6">
                 <h1 class="font-biotifBold">Safety Tips</h1>
                 <ul class="space-y-3">
@@ -329,19 +335,19 @@
     </section>
 
     <!-- purchase options -->
-    <section class="w-full py-4 px-36 h-auto">
-        <main class="w-2/3 h-fit">
+    <section class="w-full py-4 px-9 md:px-18 lg:px-36 h-auto">
+        <main class="md:w-2/3 h-fit">
             <h2>Check out the different purchase options available for this property</h2>
-            <div class="flex flex-row py-5 pr-16">
-                <div class="drop-container w-1/3 relative border border-brandBlack3 py-6 h-fit pl-5 ">
+            <div class="grid grid-cols-2 sm:grid-cols-3 text-sm sm:text-base py-5 sm:pr-16 grid-auto-rows">
+                <div class="drop-container w-full col-span-1 relative border border-brandBlack3 py-6 pl-5 ">
                     <label for="outright_payment" class="cursor-pointer peer w-full h-fit    text-left">
                         <p>Outright Payment</p>
                         <h2 class="font-biotifMedium">N5,000,000</h2>
                         <input type="checkbox" name="" id="outright_payment" class="drop-btn hidden" checked>
                     </label>
-                    <div class="drop-content peer-hover:block hidden absolute mt-10  left-0 bg-white rounded-five border border-brandBlack4 h-fit w-fit">
+                    <div class="drop-content peer-hover:block hidden absolute mt-16 left-0 bg-white rounded-five border border-brandBlack4 h-fit w-fit">
                         <div class="relative bg-white px-6 first:pt-6 pb-6  z-10 shadow-lg rounded-five">
-                            <div class="space-y-5 border-b border-brandBlack5">
+                            <div class="space-y-5 w-40 md:w-fit border-b border-brandBlack5">
                                 <div>
                                     <h2 class="font-biotifMedium inline-block">Property Price</h2>
                                     <svg class="inline-block ml-3"  width="12" height="12" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -366,15 +372,15 @@
                             
                     </div>
                 </div>
-                <div class="drop-container w-1/3 relative py-6 pl-5 h-fit border border-brandBlack5 ">
+                <div class="drop-container w-full col-span-1 relative py-6 pl-5 border border-brandBlack5 ">
                     <label for="installment_payment" class="cursor-pointer peer w-full h-fit text-left">
                         <p>Pay in Installments</p>
                         <h2 class="font-biotifMedium">N5,250,000</h2>
                         <input type="checkbox" name="" id="installment_payment" class="drop-btn hidden" >
                     </label>
-                    <div class="drop-content  peer-hover:block hidden absolute mt-10  left-0 bg-white rounded-five border border-brandBlack4 h-fit w-fit">
+                    <div class="drop-content  peer-hover:block hidden absolute mt-16 right-0 sm:left-0 bg-white rounded-five border border-brandBlack4 h-fit w-fit">
                         <div class="relative px-6 first:pt-6 pb-6 bg-white  z-10 shadow-lg rounded-five">
-                            <div class="space-y-5 w-fit">
+                            <div class="space-y-5 w-40 md:w-fit">
                                 <div>
                                     <h2 class="font-biotifMedium inline-block">Down Payment</h2>
                                     <svg class="inline-block ml-3"  width="12" height="12" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -382,20 +388,19 @@
                                         <path d="M8.9999 12.6V13M7.3999 6.1872C7.7999 5.3952 8.1999 5 8.9999 5C9.9967 5 10.5999 5.7912 10.5999 6.5824C10.5999 7.3736 10.1999 7.7688 8.9999 8.5608V9.8L7.3999 6.1872Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
                                     </svg>
                                 </div>
-                                <div class="w-56 border border-brandBlack6 py-2 px-2">
+                                <div class="w-full sm:w-56 border border-brandBlack6 py-2 px-2">
                                     <p class="">N1,575,000</p>
                                 </div>
                             </div>
-                            <div class="w-fit pt-6 flex flex-row items-center gap-10">
-                                    <h2 class="font-biotifMedium whitespace-nowrap">Monthly payment</h2>
-                                    <h2 class="font-biotifMedium whitespace-nowrap">N1,000,000</h2>  
+                            <div class="w-fit pt-6 flex flex-col sm:flex-row items-center gap-5 sm:gap-10 text-sm sm:text-md">
+                                <h2 class="font-biotifMedium whitespace-nowrap">Monthly payment</h2>
+                                <h2 class="font-biotifMedium whitespace-nowrap">N1,000,000</h2>  
                             </div>
                             <img src="./../assets/images/icon/grey-border-triangle.png" alt="" class="absolute -top-4 left-18 z-20">
                         </div>
-                            
                     </div>
                 </div>
-                <div class="drop-container w-1/3 relative py-6 pl-5 h-fit border border-brandBlack5 ">
+                <div class="drop-container w-full col-span-1 relative py-6 pl-5 border border-brandBlack5 ">
                     <label for="loans" class="cursor-pointer peer w-full h-fit text-left">
                         <p>Loans</p>
                         <h2 class="font-biotifMedium">20yr, 16% per annum</h2>
@@ -403,7 +408,7 @@
                     </label>
                     <div class="drop-content peer-hover:block hidden absolute mt-10 left-0 bg-white rounded-five border border-brandBlack4 h-fit w-fit">
                         <div class="relative  bg-white px-6 first:pt-6 pb-6  z-10 shadow-lg rounded-five">
-                            <div class="space-y-5 w-fit pb-10">
+                            <div class="space-y-5 w-40 md:w-fit pb-10">
                                 <div>
                                     <h2 class="font-biotifMedium inline-block">Interest Rate</h2>
                                     <svg class="inline-block ml-3"  width="12" height="12" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -411,24 +416,23 @@
                                         <path d="M8.9999 12.6V13M7.3999 6.1872C7.7999 5.3952 8.1999 5 8.9999 5C9.9967 5 10.5999 5.7912 10.5999 6.5824C10.5999 7.3736 10.1999 7.7688 8.9999 8.5608V9.8L7.3999 6.1872Z" stroke="#6C757D" stroke-width="2" stroke-linecap="round"/>
                                     </svg>
                                 </div>
-                                <div class="w-56 border border-brandBlack6 py-2 px-2">
+                                <div class="w-full md:w-56 border border-brandBlack6 py-2 px-2">
                                     <p class="">16% per annum</p>
                                 </div>
                             </div>
                             <button type="button" class="bg-brandGreen1 py-3 w-full rounded-five font-biotifMedium text-brandWhite">Find Lender</button>
                             <img src="./../assets/images/icon/grey-border-triangle.png" alt="" class="absolute -top-4 left-18 z-20">
                         </div>
-                            
                     </div>
                 </div>
             </div>
         </main>
     </section>
 
-    <section class="h-auto py-10 px-28 w-full relative">
+    <section class="h-auto py-1 px-7 md:px-14 lg:px-28 w-full relative">
         <h1 class="font-biotifBold text-xl">Similar properties</h1>
-        <main class="flex flex-row gap-6 w-full pt-7">
-            <div class=" w-1/3 h-auto">
+        <main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full pt-7">
+            <div class="col-span-1 h-auto">
                 <main class="bg-white shadow-sm h-auto pb-2">
                     <div class="block h-56 w-full bg-[url('./../../assets/images/houses/stephen-leonardi.jpg')] bg-cover"></div>
                     <div class="p-5 space-y-4 font-biotifBook text-sm">
@@ -451,7 +455,7 @@
                     </div>
                 </main>
             </div>
-            <div class=" w-1/3 h-auto">
+            <div class="col-span-1 h-auto">
                 <main class="bg-white shadow-sm h-auto pb-2">
                     <div class="block h-56 w-full bg-[url('./../../assets/images/houses/stephen-leonardi.jpg')] bg-cover"></div>
                     <div class="p-5 space-y-4 font-biotifBook text-sm">
@@ -474,7 +478,7 @@
                     </div>
                 </main>
             </div>
-            <div class=" w-1/3 h-auto">
+            <div class="col-span-1 h-auto">
                 <main class="bg-white shadow-sm h-auto pb-2">
                     <div class="block h-56 w-full bg-[url('./../../assets/images/houses/stephen-leonardi.jpg')] bg-cover"></div>
                     <div class="p-5 space-y-4 font-biotifBook text-sm">
@@ -562,7 +566,7 @@
                     <li class="font-biotifLight text-sm lg:text-base"><a href="./Pages/list-rentals.html" class="hover:text-brandBlue">List rental</a></li>
                     <li class="font-biotifLight text-sm lg:text-base"><a href="./Pages/work-with-us.html" class="hover:text-brandBlue">Work with us</a></li>
                     <li class="font-biotifLight text-sm lg:text-base"><a href="./Pages/guide" class="hover:text-brandBlue">Guide</a></li>
-                    <li class="font-biotifLight text-sm lg:text-base"><a href="#" class="hover:text-brandBlue">Blog</a></li>
+                    <li class="font-biotifLight text-sm lg:text-base"><a href="./blog.html" class="hover:text-brandBlue">Blog</a></li>
                     <li class="font-biotifLight text-sm lg:text-base"><a href="#" class="hover:text-brandBlue">Terms of use</a></li>
                 </ul>
                 <ul class="flex flex-col gap-3 text-left">

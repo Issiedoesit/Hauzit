@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Main Content goes here -->
-    <header class="shadow-md">
+    <header class="shadow-md border-b-0.5 border-b-brandBlack5">
         <nav class="items-center justify-between h-18 py-3 flex flex-auto w-full relative z-70 pl-5 xl:pl-20 px-5 sm:px-10">
              <a href="./../index.html" class="hover:scale-90 transition-transform duration-500 ease-in-out pr-10"> 
                  <p class="hidden">Hauzit Logo</p>       
@@ -38,8 +38,8 @@
              </button>
         </nav>
      </header>
-    <section class="h-auto  bg-brandWhite2 pl-28 w-full relative">
-        <main class="bg-white pt-11 pb-40 px-12">
+    <section class="h-auto  bg-brandWhite2 pl-4 md:pl-14 lg:pl-28 w-full relative">
+        <main class="bg-white pt-11 pb-40 px-5 sm:px-12">
             <div class="flex flex-col w-full justify-between font-biotifBook">
                 <h1 class="font-biotifMedium text-2xl">Current Mortgage Rates</h1>
                 <div class="flex flex-row justify-between py-8">
@@ -47,51 +47,43 @@
                 </div>
             </div>
             <main class="w-full">
-                <table class="w-3/4 table-fixed">
-                    <thead class="font-biotifMedium border-b border-brandBlack6">
-                        <td>LENDER</td>
-                        <td>RATE</td>
-                        <td>AMOUNT</td>
-                        <td></td>
-                    </thead>
-                    <tbody>
-                        <tr >
-                            <td class="py-4 font-biotifBook"><h3>Unity Bank Mortgage Loans</h3></td>
-                        </tr>
-                        <tr>
-                            <td class="font-biotifMedium py-2 text-brandRed">
-                                <p>
-                                    LOGO<span>.com </span>
-                                </p>
-                            </td>
-                            <td class="py-2">
-                                <p>17% APR</p>
-                            </td>
-                            <td class="py-2">
-                                <p>N50 Million</p>
-                            </td>
-                            <td>
-                                <button class="flex flex-row mx-auto w-fit items-center gap-4 rounded-five py-3 px-10 bg-brandRed text-white font-biotifMedium">
-                                    <p>Get Started</p>
-                                </button>
-                            </td>
-                        </tr>
-                        <tr class="border-b border-brandBlack6">
-                            <td class="pt-2 pb-4">
-
-                            </td>
-                            <td class="pt-2 pb-4">
-                                <p>Up to 15 Year</p>
-                            </td>
-                            <td class="pt-2 pb-4">
-                                <p></p>
-                            </td>
-                            <td>
-                                
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <section class="sm:w-11/12 lg:w-3/4">
+                    <div class="grid grid-cols-3 sm:grid-cols-4 font-biotifMedium border-b border-brandBlack6">
+                        <h3 class="col-span-1">LENDER</h3>
+                        <h3 class="col-span-1">RATE</h3>
+                        <h3 class="col-span-1">AMOUNT</h3> 
+                    </div>
+                    <div class="font-biotifBook text-sm md:text-base py-2 gap-y-4 sm:gap-y-2 gap-x-2 grid grid-cols-3 sm:grid-cols-4 border-b border-brandBlack6">
+                        <div class="col-span-3 sm:col-span-4 py-4 font-biotifBook">
+                            <h4>Unity Bank <br/> Mortgage Loans</h4>
+                        </div>
+                        <p class="col-span-1 font-biotifMedium  text-brandRed">
+                            LOGO<span>.com </span>
+                        </p>
+                        <p>17% APR</p>
+                        <p>N50 Million</p>
+                        <div class="col-span-3 sm:col-span-1 flex justify-end sm:justify-center">
+                            <button type="button" class="whitespace-nowrap flex flex-row sm:mx-auto items-center justify-center rounded-five py-3 px-2 h-fit w-fit sm:w-full bg-brandRed text-white font-biotifMedium">
+                                <p>Get Started</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="font-biotifBook text-sm md:text-base py-2 gap-y-4 sm:gap-y-2 gap-x-2 grid grid-cols-3 sm:grid-cols-4 border-b border-brandBlack6">
+                        <div class="col-span-3 sm:col-span-4 py-4 font-biotifBook">
+                            <h4>Unity Bank <br/> Mortgage Loans</h4>
+                        </div>
+                        <p class="col-span-1 font-biotifMedium  text-brandRed">
+                            LOGO<span>.com </span>
+                        </p>
+                        <p>17% APR</p>
+                        <p>N50 Million</p>
+                        <div class="col-span-3 sm:col-span-1 flex justify-end sm:justify-center">
+                            <button type="button" class="whitespace-nowrap flex flex-row sm:mx-auto items-center justify-center rounded-five py-3 px-2 h-fit w-fit sm:w-full bg-brandRed text-white font-biotifMedium">
+                                <p>Get Started</p>
+                            </button>
+                        </div>
+                    </div>
+                </section>
             </main>
         </main>
     </section>
@@ -150,7 +142,7 @@
                     <li class="font-biotifLight text-sm lg:text-base"><a href="./list-rentals.html" class="hover:text-brandBlue">List rental</a></li>
                     <li class="font-biotifLight text-sm lg:text-base"><a href="./work-with-us.html" class="hover:text-brandBlue">Work with us</a></li>
                     <li class="font-biotifLight text-sm lg:text-base"><a href="./guide" class="hover:text-brandBlue">Guide</a></li>
-                    <li class="font-biotifLight text-sm lg:text-base"><a href="#" class="hover:text-brandBlue">Blog</a></li>
+                    <li class="font-biotifLight text-sm lg:text-base"><a href="./blog.html" class="hover:text-brandBlue">Blog</a></li>
                     <li class="font-biotifLight text-sm lg:text-base"><a href="#" class="hover:text-brandBlue">Terms of use</a></li>
                 </ul>
                 <ul class="flex flex-col gap-3 text-left">

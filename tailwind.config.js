@@ -9,9 +9,11 @@ module.exports = {
       colors:{
         brandRed: "#E35053",
         brandGrey: "#212529",
+        brandGrey2: "#D9D9D9",
         brandGreen: "#E0F7EF",
         brandGreen1: "#358F80",
         brandGreen2: "#036666",
+        brandGreen3: "#78C6A3",
         brandWhite: "#FFFFFF",
         brandBlue: "#0096C7",
         brandBlue2: "#0077B6",
