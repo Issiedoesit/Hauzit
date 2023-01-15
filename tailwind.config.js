@@ -3,6 +3,8 @@ module.exports = {
   content: [
     "index.html",
     "./Pages/*.{html,js}",
+    "./assets/js*.{js}",
+    "./Pages/accounts/*.{html,js}",
   ],
   theme: {
     extend: {
