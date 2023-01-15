@@ -69,6 +69,57 @@
             </button>
             <p class="text-center text-xs sm:text-fifteen">Already have an account? <span class="text-brandBlue">Sign in</span></p>
         </form>
+        <form action="" class="mt-2 bg-white space-y-6 w-ninetyPercent mx-auto h-full pb-9">
+            <div class="py-4 px-5 border-b-0.5 border-b-brandBlack6 last:border-b-0 flex flex-row items-center gap-5 justify-between">
+                <div>
+                    <h2 class="text-xl font-biotifBold">Property info</h2>
+                    <p class="font-biotifBook">Step 1 of 3</p>
+                </div>
+                <div>
+                    <button type="button" class="font-biotifSemiBold py-2 px-5 w-fit border-0.5 border-brandBlack4 rounded-five">
+                        Save draft
+                    </button>
+                </div>
+            </div>
+            <div class="pt-9 pb-14 px-5 space-y-6 border-b-0.5 border-b-brandBlack6 last:border-b-0 ">
+                <h1 class="text-xl sm:text-2xl text-center font-biotifMedium">
+                    Confirm some facts about your rental property
+                </h1>
+                <div class="flex flex-col w-seventyPercent mx-auto">
+                    <p class="font-biotifBold text-brandBlack1 pb-2">
+                        Square footage
+                    </p>
+                    <label for="square_footage" class="relative">
+                        <input name="" id="square_footage" class="text-brandBlack4 text-fifteen border border-brandBlack4 py-2 pl-2 pr-8 w-full rounded-five bg-brandWhite2">
+                        <p class="font-biotifBook absolute right-4 top-fiftyPercent -translate-y-fiftyPercent text-brandBlack3">sq. ft.</p>
+                    </label>
+                </div>
+                <div class="flex flex-col-reverse w-seventyPercent mx-auto">
+                    <select required name="" id="total_bedrooms" class="peer text-brandBlack4 text-fifteen border border-brandBlack4 py-2 pl-2 pr-8 w-full rounded-five bg-brandWhite2">
+                        <!-- <option value="any">ANY</option> -->
+                    </select> 
+                    <label for="total_bedrooms" class="font-biotifBold text-brandBlack1 pb-2 peer-required:after:content-['*'] after:text-brandRed2">
+                        Total bedrooms
+                    </label>
+                </div>
+                <div class="flex flex-col-reverse w-seventyPercent mx-auto">
+                    <select required name="" id="total_baths" class="peer text-brandBlack4 text-fifteen border border-brandBlack4 py-2 pl-2 pr-8 w-full rounded-five bg-brandWhite2">
+                        <!-- <option value="any">ANY</option> -->
+                    </select> 
+                    <label for="total_baths" class="font-biotifBold text-brandBlack1 pb-2 peer-required:after:content-['*'] after:text-brandRed2">
+                        Total bathrooms
+                    </label>
+                </div>
+            </div>
+           <div class="px-5 md:px-10 pt-3 w-full gap-5 flex flex-row justify-between items-center border-b-0.5 border-b-brandBlack6 last:border-b-0 ">
+                <button type="submit" class="flex flex-row mx-auto w-fit items-center gap-4 border border-brandBlue rounded-five py-3 px-10 text-brandBlue bg-white font-biotifMedium">
+                    <p>Back</p>
+                </button>
+                <button type="submit" class="flex flex-row mx-auto w-fit items-center gap-4 border border-brandBlue rounded-five py-3 px-10 bg-brandBlue text-white font-biotifMedium">
+                    <p>Next</p>
+                </button>
+           </div>
+        </form>
     </section>
     <section class="py-20 px-5 sm:px-10 lg:p-20">
         <h1 class="text-3xl font-biotifMedium text-center">Post where renters are searching</h1>
